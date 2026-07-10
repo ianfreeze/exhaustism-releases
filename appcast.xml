@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Exhaustism</title>
+    <link>https://raw.githubusercontent.com/ianfreeze/exhaustism-releases/main/appcast.xml</link>
+    <description>Update feed for Exhaustism (Dozo).</description>
+    <language>en</language>
+
+    <!--
+      TEMPLATE ITEM. This becomes a live update once a Sparkle-enabled build is produced
+      and signed. Fill enclosure url / length / sparkle:edSignature from the output of
+      `sign_update Exhaustism-x.y.z.zip` (see README). Sparkle compares sparkle:version
+      (= CFBundleVersion / build number) to decide whether an update is newer, so it MUST
+      increase on every release. Until the signature+length are real, remove this item or
+      leave it as the baseline (a build-1 app will read it as "you are up to date").
+    -->
+    <item>
+      <title>Exhaustism 0.1.0-alpha</title>
+      <pubDate>Fri, 10 Jul 2026 04:00:00 -0700</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.1.0-alpha</h3>
+        <ul><li>First invite-only alpha.</li></ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.1.0-alpha/Exhaustism-0.1.0-alpha.zip"
+        sparkle:version="1"
+        sparkle:shortVersionString="0.1.0"
+        length="0"
+        type="application/octet-stream"
+        sparkle:edSignature="REPLACE_WITH_sign_update_OUTPUT" />
+    </item>
+  </channel>
+</rss>
