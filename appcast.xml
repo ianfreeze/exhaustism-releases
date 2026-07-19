@@ -17,6 +17,29 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.2.1</title>
+      <pubDate>Sat, 19 Jul 2026 07:10:00 -0700</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.2.1 — Licensing, quality of life, lighter launch</h3>
+        <ul>
+          <li><b>License system</b> (offline, no phone-home): install a signed <code>.exhaustlic</code> in Settings &#9656; License. The alpha stays soft-gated — nothing locks.</li>
+          <li><b>Spacebar</b> toggles the pressure-field playhead app-wide, or Live Rev play/stop while that tab is visible.</li>
+          <li><b>WAV export</b> no longer freezes the app — background synthesis with a real progress bar.</li>
+          <li><b>Live Rev volume knob</b>, persisted; pure listener gain, the dB numbers never move.</li>
+          <li><b>Much lighter launch:</b> saved results now load from the project sidecar on demand instead of all at once — typical launch memory drops from ~800&#160;MB to ~220&#160;MB on a large result store. Charts render identically once loaded; project files are unchanged.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.2.1/Exhaustism-0.2.1.zip"
+        length="3607020"
+        type="application/octet-stream"
+        sparkle:edSignature="pv4fLCIQ7MXVUv/iFvVKxC2Q7hlr4IiDKRJNiZhBzfT/eKOvQjz3jh7GjCqWpFi1GG4Jl+xX5kJpnP0tiKDsAg==" />
+    </item>
+
+    <item>
       <title>Exhaustism 0.2.0</title>
       <pubDate>Sat, 19 Jul 2026 01:17:00 -0700</pubDate>
       <sparkle:version>3</sparkle:version>
