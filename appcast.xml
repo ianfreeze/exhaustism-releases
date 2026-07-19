@@ -17,6 +17,29 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.1.1</title>
+      <pubDate>Sat, 18 Jul 2026 10:30:00 -0700</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.1.1</h3>
+        <ul>
+          <li>Unified Dozo theme across every view.</li>
+          <li>Sound-grade 3.5 mm mesh option (timbre band recovered above 800 Hz).</li>
+          <li>Intake &amp; Combustion inspector (ITB runner + Wiebe closed-cycle).</li>
+          <li>Reverse-cone tip now modeled on full cat/resonator/muffler chains.</li>
+          <li>New sidecar document format: autosave writes ~11 MB instead of 226 MB.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.1.1/Exhaustism-0.1.1.zip"
+        length="3461591"
+        type="application/octet-stream"
+        sparkle:edSignature="+fSLk482bMJ1fskIRdxyKeLc0mFxZxiB2Ayjs2hlcbNgWVV362f4OqtLILDxbwTc7gSSrkA7nAicjgSgrykZCg==" />
+    </item>
+
+    <item>
       <title>Exhaustism 0.1.0-alpha</title>
       <pubDate>Fri, 10 Jul 2026 04:00:00 -0700</pubDate>
       <sparkle:version>1</sparkle:version>
