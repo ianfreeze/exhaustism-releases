@@ -17,6 +17,30 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.2.0</title>
+      <pubDate>Sat, 19 Jul 2026 01:17:00 -0700</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.2.0 — Part throttle (FEA-1)</h3>
+        <ul>
+          <li>The throttle is now a real lever, not a hidden slider. New Throttle control in the Intake &amp; Combustion inspector.</li>
+          <li>With the intake model ON: the butterfly is a genuine variable restriction (1&#8722;cos&#160;&#952; plate law) feeding each ITB runner — manifold vacuum, trapped mass and the exhaust pulse emerge from the gas dynamics.</li>
+          <li>Without the intake model: an honest manifold-pressure map scales the blowdown seed (documented approximation, help text says which model you get).</li>
+          <li>Live Rev throttle slider restored; part-throttle sweeps supported.</li>
+          <li>New diagnostics: EVO seed pressure and trapped-charge temperature.</li>
+          <li>Wide-open-throttle results are bit-identical to 0.1.1.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.2.0/Exhaustism-0.2.0.zip"
+        length="3479794"
+        type="application/octet-stream"
+        sparkle:edSignature="DcehGyb2HkVxaRiM00YxRyOFKLpa1YKQfd8t51RsE/wUCvDxBYic3+40nnI8Cvf6/56P1zwM5llua/ayyJn9Aw==" />
+    </item>
+
+    <item>
       <title>Exhaustism 0.1.1</title>
       <pubDate>Sat, 18 Jul 2026 10:30:00 -0700</pubDate>
       <sparkle:version>2</sparkle:version>
