@@ -17,6 +17,29 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.3.0</title>
+      <pubDate>Wed, 12 Aug 2026 08:19:57 -0700</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.3.0 — The audit burn: honest numbers, disclosed fallbacks</h3>
+        <ul>
+          <li><b>Design RPM is saved with the design</b> — it was being silently discarded, and the Designer and the Algebraic quick-check each kept a private target (4,500 vs 6,000). One <code>scavengingTargetRPM</code> now, shared by both, persisted. Sound keeps its own separate target — scavenging and sound are different physics at different rpm.</li>
+          <li><b>Every sweep is stamped with its run conditions</b> — ambient, fuel, throttle and model flags travel with the result and into the CSV export, so two sweeps can be compared honestly after the fact.</li>
+          <li><b>MCSA ceiling:</b> a preset's measured minimum cross-section area now caps effective valve area. No default is invented — unmeasured presets ship <code>nil</code> and the solver says so. Wide-open goldens are bit-identical to 0.2.1.</li>
+          <li><b>Fallbacks now disclose themselves:</b> a 6&#8594;2 build that solves as a single collector shows a <b>SOLVED AS SINGLE COLLECTOR</b> badge (persisted, exported) instead of quietly answering a different question; merge advice carries a clocking disclosure; plenum advisory added.</li>
+          <li><b>New diagnostic:</b> intake-port pressure trace per RPM point — the ram sequence is now visible next to the exhaust pulse.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.3.0/Exhaustism-0.3.0.zip"
+        length="4464790"
+        type="application/octet-stream"
+        sparkle:edSignature="pt2BqQgMGM71OAvClo46WFJ/ZagRtyU2fKYa5PxPODXh7Y/ETIfqIKvjUWtfQ+vmLtMHmazXLnOt5bfbFYxmDg==" />
+    </item>
+
+    <item>
       <title>Exhaustism 0.2.1</title>
       <pubDate>Sat, 19 Jul 2026 07:10:00 -0700</pubDate>
       <sparkle:version>4</sparkle:version>
