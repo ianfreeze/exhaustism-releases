@@ -17,6 +17,29 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.3.1</title>
+      <pubDate>Sat, 15 Aug 2026 13:33:00 -0700</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.3.1 — The glove stops going deaf</h3>
+        <ul>
+          <li><b>The control channel no longer lives beside your project.</b> Commands are read from a fixed folder, <code>~/Library/Application Support/Exhaustism/ipc</code>, whether or not a document is open. It used to be derived from the open project's path, which made external control conditional on having saved a file &mdash; silently.</li>
+          <li><b>The failure that prompted this:</b> renaming the app changed its bundle identifier, which moved the preferences domain, which orphaned the remembered project path. The app then launched with nothing open and ignored every command sent to it for nine days, while reporting a stale snapshot as live state. Nothing was broken. Nothing said so.</li>
+          <li><b>State and run events are still written next to your project</b> when one is open &mdash; that copy is a record belonging with the run evidence. It simply is not the channel any more, so Save As can no longer disconnect anything mid-session.</li>
+          <li><b>Silence is now reportable.</b> The state export names the folder the app is actually watching, so tooling can say &ldquo;this app is listening somewhere else&rdquo; instead of trusting an old file.</li>
+        </ul>
+        <p>No solver changes. Goldens bit-identical; 939 tests green, zero failures.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.3.1/Exhaustism-0.3.1.zip"
+        length="6267712"
+        type="application/octet-stream"
+        sparkle:edSignature="eCNZn54I8E8fto9Ro8u/FaFpMrmiDILB29WlK3tYXAdEJ9CEthuMyYCTemi+QFUna8z6XXz0aTzlWNzmAbZPCw==" />
+    </item>
+
+    <item>
       <title>Exhaustism 0.3.0</title>
       <pubDate>Wed, 12 Aug 2026 08:19:57 -0700</pubDate>
       <sparkle:version>5</sparkle:version>
