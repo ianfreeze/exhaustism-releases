@@ -17,6 +17,27 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.3.4</title>
+      <pubDate>Sun, 16 Aug 2026 09:06:00 -0700</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.3.4 — Put the collector where you want it</h3>
+        <ul>
+          <li><b>The collector can be placed.</b> It used to be pinned to one spot the geometry chose for it &mdash; the one part you position by eye on a real car was the one part the drawing would not let you move. <b>Drag it on the Exhaust Designer canvas</b>, or type an exact position into the new <b>Place</b> fields in the Collector settings. A <b>Recentre</b> button puts it back.</li>
+          <li><b>The primaries re-aim and keep the lengths you authored.</b> Moving the collector changes the angle the runners arrive at, never the length you cut. The run downstream follows the collector's exit, so nothing detaches from it.</li>
+          <li><b>Your simulation results do not change.</b> This is where the part sits, not what it is &mdash; verified against the El Presidente reference, which came back bit-identical.</li>
+        </ul>
+        <p>1002 tests green, zero failures.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.3.4/Exhaustism-0.3.4.zip"
+        length="6316610"
+        type="application/octet-stream"
+        sparkle:edSignature="xAti8E4DixeXJ2l3S6z11DthfYz8gg32k08b0SwNKMA6GPd1owsQNn+7oLNjv2MWX7Hi7c2KN/K0mZUyzIZWCg==" />
+    </item>
+    <item>
       <title>Exhaustism 0.3.3</title>
       <pubDate>Sat, 15 Aug 2026 21:20:00 -0700</pubDate>
       <sparkle:version>8</sparkle:version>
