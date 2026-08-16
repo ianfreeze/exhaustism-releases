@@ -17,6 +17,30 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.3.2</title>
+      <pubDate>Sat, 15 Aug 2026 18:40:00 -0700</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.3.2 — The Designer draws what you typed</h3>
+        <ul>
+          <li><b>A bend now turns the run.</b> Adding a bend used to draw it as a straight length pointing the same way as the pipe before it, so the only way to see the turn was to drag the end point round by hand &mdash; and then retype the angle the drag had just destroyed. The angle you type is the turn you see. Two bends compound: 45&deg; then 45&deg; leaves the run at 90&deg;.</li>
+          <li><b>The drawing stops moving on its own.</b> Retyping a bend angle re-aims the run instead of only stretching it, and the run can no longer swing sideways because a neighbouring length happened to collapse to zero.</li>
+          <li><b>Your display units stick.</b> Length, Diameters, Temperature and Pressure survive quitting the app. They never did &mdash; the Units tab saved nothing, so every launch quietly put you back on mm, OD, kelvin and kPa.</li>
+          <li><b>Zoom survives an edit.</b> Deleting a part used to throw you back to the whole-car view. The canvas keeps its scale and stays where you were looking.</li>
+          <li><b>Delete key.</b> Select a part on the canvas and press &#8998; or &#8998;&#8998; to remove it. Backspace inside a number field still edits the number.</li>
+          <li><b>Inches read as fractions.</b> A measurement shows as <code>2-1/2</code>, not <code>2.5</code> &mdash; the way it goes on the tube. Anything off a sixteenth is marked <code>&asymp;</code>, so a rounded number never passes for an exact one. You can still type decimals or fractions. The cut and build sheets gained fraction columns beside the decimal ones, so the export still sorts.</li>
+        </ul>
+        <p>No solver changes. Goldens bit-identical; 986 tests green, zero failures.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.3.2/Exhaustism-0.3.2.zip"
+        length="6286845"
+        type="application/octet-stream"
+        sparkle:edSignature="9k74KOhQ/4KfEeIfvMp/Xnd+efFU5D7zHux9b8i6BxF5DiMj5j3MDIkz9+i/eqMZDW6Vkq57hzu+yEwvmPosAQ==" />
+    </item>
+    <item>
       <title>Exhaustism 0.3.1</title>
       <pubDate>Sat, 15 Aug 2026 13:33:00 -0700</pubDate>
       <sparkle:version>6</sparkle:version>
