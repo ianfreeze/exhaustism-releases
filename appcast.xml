@@ -17,6 +17,32 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.3.3</title>
+      <pubDate>Sat, 15 Aug 2026 21:20:00 -0700</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.3.3 — Housekeeping</h3>
+        <p><b>Nothing on screen changes.</b> If you are updating from 0.3.1 or earlier, this
+        release also carries everything in 0.3.2 &mdash; the Exhaust Designer fixes and the
+        display units that finally stick.</p>
+        <ul>
+          <li><b>The app is called Exhaustism throughout now.</b> It has been called Exhaustism
+          since July, but the project, the build target and the program file inside the app still
+          carried the working name it was given before it had a real one. They do not any more.</li>
+          <li><b>Your documents, settings and licence are untouched.</b> The identity macOS uses to
+          recognise the app never changed, so nothing had to be re-registered or re-entered.</li>
+        </ul>
+        <p>No solver changes. 987 tests green, zero failures.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.3.3/Exhaustism-0.3.3.zip"
+        length="6288149"
+        type="application/octet-stream"
+        sparkle:edSignature="mZnGepP+E03xEGcNqU2NkUezxwm2cKj4rF7fgbER2tilE1rjGL7WEXMFmda2JduW91suzHStvyhHX3MqAA8tAw==" />
+    </item>
+    <item>
       <title>Exhaustism 0.3.2</title>
       <pubDate>Sat, 15 Aug 2026 18:40:00 -0700</pubDate>
       <sparkle:version>7</sparkle:version>
