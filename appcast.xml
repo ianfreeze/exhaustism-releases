@@ -17,6 +17,26 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.3.7</title>
+      <pubDate>Thu, 20 Aug 2026 23:45:00 -0700</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.3.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.3.7 — Nothing changes your numbers but you</h3>
+        <ul>
+          <li><b>Every automatic change of an orientation or a value is gone.</b> The engine block no longer deflects a drag &mdash; a pipe dragged into it turns red so you can decide, and nothing moves your pipe for you. Finishing a drag writes exactly what that gesture means: a pipe drag its own length, a bend drag its own angle, a slide its two neighbouring pipe lengths. Nothing else is ever rewritten &mdash; bend angles commit exactly as you drag or type them.</li>
+          <li><b>Junction physics:</b> the reverse-flow model now carries the hot common gas into receiving branches (the published model's own energy equation). Off by default &mdash; your results are unchanged until you opt in; the shock-tube validation still lands within 0.07 bar of the published experiment.</li>
+        </ul>
+        <p>Solver defaults untouched &mdash; existing simulations produce identical numbers. 1053 tests green, zero failures.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.3.7/Exhaustism-0.3.7.zip"
+        length="6524323"
+        type="application/octet-stream"
+        sparkle:edSignature="qeGmyFUDhIAqN4bTTVXryMv0XvslgGgzrCbHD2yYbM6EvYL4KLJpz0S2JgD0J+5n1JLTWx/sCNMrDyiDQnTfCw==" />
+    </item>
+    <item>
       <title>Exhaustism 0.3.6</title>
       <pubDate>Thu, 20 Aug 2026 22:05:00 -0700</pubDate>
       <sparkle:version>11</sparkle:version>
