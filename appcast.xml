@@ -17,6 +17,26 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.3.8</title>
+      <pubDate>Fri, 21 Aug 2026 07:50:00 -0700</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.3.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.3.8 — Deleting a part stops redrawing your work</h3>
+        <ul>
+          <li><b>Removing one part no longer reseeds the route.</b> Delete an element and the build simply closes the gap. Everything you drew and positioned around it stays exactly where you put it &mdash; nothing is regenerated behind you.</li>
+          <li><b>Junctions now read the shape you actually built.</b> How many branches meet at a junction, and at what angles, comes from the build's own structure instead of a fixed built-in list. Three-into-one, four-into-one and merged pairs behave exactly as before, and layouts beyond those three now feed the solver correctly. Your saved files are unchanged.</li>
+        </ul>
+        <p>Solver defaults untouched &mdash; existing simulations produce identical numbers. 1070 tests green, zero failures.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.3.8/Exhaustism-0.3.8.zip"
+        length="6570810"
+        type="application/octet-stream"
+        sparkle:edSignature="FsgBRJ6vRxeXYxMiYEH/w/vXQqpLSDPDGuUV/LhBPcNGmZGb4cA4Gco6oVS5j2Sc1vsbnU78bOlugznxiNrAAg==" />
+    </item>
+    <item>
       <title>Exhaustism 0.3.7</title>
       <pubDate>Thu, 20 Aug 2026 23:45:00 -0700</pubDate>
       <sparkle:version>12</sparkle:version>
