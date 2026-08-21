@@ -17,6 +17,27 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.3.6</title>
+      <pubDate>Thu, 20 Aug 2026 22:05:00 -0700</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.3.6 — The graph underneath, and junction physics proven against a published experiment</h3>
+        <ul>
+          <li><b>Exhaust Designer routing:</b> inline parts (resonators, mufflers) now sit on the block face with routes drawn around them, and new parts are added at the end of the part before. A header ending at two exits offers the road back to a single collector as its own row.</li>
+          <li><b>The header topology is now a real graph under the hood</b> &mdash; six primitives instead of a fixed list. Nothing about your files changes (saves are byte-identical); this is the foundation for layouts beyond the three presets.</li>
+          <li><b>Junction physics, completed and validated:</b> the Bassett directional loss model now covers reverse flow through a junction, applied the way the source paper's own boundary model does. The full set reproduces a published shock-tube experiment (a 1.7 pressure-ratio shock into a 90&deg; tee) within 0.07 bar on all three legs. Off by default &mdash; your results are unchanged until you opt in.</li>
+        </ul>
+        <p>Solver defaults untouched &mdash; existing simulations produce identical numbers. 1052 tests green, zero failures.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.3.6/Exhaustism-0.3.6.zip"
+        length="6521001"
+        type="application/octet-stream"
+        sparkle:edSignature="NMmhjA8I7vaZnc927J23TpSt+L4hWY2XYSyZ/iSVjlpIrzhnpKOh2syGTkW7yX/gdsH5EaVtPfub/TD1TKmRDw==" />
+    </item>
+    <item>
       <title>Exhaustism 0.3.5</title>
       <pubDate>Mon, 17 Aug 2026 17:20:00 -0700</pubDate>
       <sparkle:version>10</sparkle:version>
