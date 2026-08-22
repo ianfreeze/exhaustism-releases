@@ -17,6 +17,37 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.4.0</title>
+      <pubDate>Sat, 22 Aug 2026 02:00:00 -0700</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.4.0 &mdash; your existing simulations will read slightly differently after this update</h3>
+        <p>Every release before this one told you your existing simulations produce identical numbers. <b>This one cannot, and that is the point of it.</b></p>
+        <p>Exhaustism now uses the paper's corrected joining angle at merge junctions, and its measured separating coefficients when flow reverses through a junction. Both were already in the app, switched off, while they were checked against measured test data. They are on by default now.</p>
+        <p><b>What this means for a design you already have.</b> Open it and the numbers will have shifted a little. On the El Presidente reference header:</p>
+        <ul>
+          <li>Scavenging moved between <b>+0.6&nbsp;% and +1.0&nbsp;%</b> at 2200, 2400 and 3200&nbsp;rpm, and <b>&minus;7.8&nbsp;%</b> at 4000&nbsp;rpm.</li>
+          <li>Drone level moved by <b>0.5&nbsp;dB or less</b> at every point &mdash; the largest single move was &minus;0.51&nbsp;dB at 2200&nbsp;rpm.</li>
+          <li><b>Drone frequency did not move at all.</b> Every tone stayed on the same frequency, on this header and on every other one tested.</li>
+        </ul>
+        <p>The 4000&nbsp;rpm point is the big one, and it moves down. At the top of the tuned band the resonator tee takes the hardest hit of reversed flow, and the old model charged nothing for it. The new one charges what the measurements say it costs. That scavenging was never really there.</p>
+        <p><b>Nothing changed for junctions you never opted in to the directional model.</b> If a junction is not running directional losses, its numbers are identical.</p>
+        <p><b>You can put the old behaviour back, one junction at a time.</b> Set that junction's directional angle correction and separating coefficients to <code>false</code> explicitly and it returns to exactly what it did in 0.3.9.</p>
+        <p>This is why the version went to 0.4.0 rather than 0.3.10.</p>
+        <p>1110 tests green, zero failures.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.0/Exhaustism-0.4.0.zip"
+        sparkle:version="15"
+        sparkle:shortVersionString="0.4.0"
+        length="6788793"
+        type="application/octet-stream"
+        sparkle:edSignature="5sYJAV4vaevHZy4ZynFSZegwzlYCjVl20WoMnKKb2C2wyMlJIP487XIyLwyCePvifIGuZlEsDpffFIXeoZcUDQ==" />
+    </item>
+
+    <item>
       <title>Exhaustism 0.3.9</title>
       <pubDate>Fri, 21 Aug 2026 19:05:00 -0700</pubDate>
       <sparkle:version>14</sparkle:version>
