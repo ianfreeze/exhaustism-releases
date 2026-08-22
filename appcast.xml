@@ -17,6 +17,32 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.3.9</title>
+      <pubDate>Fri, 21 Aug 2026 19:05:00 -0700</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.3.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.3.9 — the physics groundwork, all of it switched off by default</h3>
+        <p>Everything below is new capability sitting behind switches that are <b>off</b>. Your saved files open unchanged and your existing simulations produce identical numbers. Nothing here changes an answer you already have.</p>
+        <ul>
+          <li><b>The pane can now build shapes the app could not describe before.</b> Add a merge stage, a cross-link, or a re-split from the Header topology menu &mdash; 8-4-2-1, true duals with an H-pipe, a 2-into-1-into-2. Each is removable from its own row, and removing it restores the original file exactly. A shape that cannot work is refused with the reason, and a shape the physics model does not cover yet is refused per node instead of quietly approximated.</li>
+          <li><b>Junctions read the shape you actually built.</b> How many branches meet, and at what angles, comes from the build's own structure rather than a fixed built-in list.</li>
+          <li><b>Exhaust gas is now describable as gas, not as a constant.</b> The app can compute gas properties of real burned mixture from composition and temperature instead of one hand-picked number. Off by default.</li>
+          <li><b>Pipe walls can shed heat the way real pipes do</b> &mdash; pulsing about five times harder during blowdown than at cruise, instead of a flat rate. Off by default.</li>
+          <li><b>The solver now proves its own arithmetic.</b> Six analytic checks run against known exact answers &mdash; a textbook shock-tube solution and manufactured solutions with a measured order of accuracy. They run as a gate, so a build that quietly gets worse at maths cannot ship.</li>
+          <li><b>A headless batch runner.</b> Whole sweeps run from a text file and produce diffable results, with running in parallel proven to give bit-identical numbers to running in sequence.</li>
+          <li><b>A calibration engine that reports what it cannot know.</b> It fits coefficients to measured data and tells you which knobs the data genuinely constrains, rather than quoting confidence on knobs it could not see. Proven on synthetic data only &mdash; no real engine data has been used, and it says so every time it runs.</li>
+        </ul>
+        <p>Solver defaults untouched. 1105 tests green, zero failures.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.3.9/Exhaustism-0.3.9.zip"
+        length="6789656"
+        type="application/octet-stream"
+        sparkle:edSignature="fAZovNc8hVkIUcVtG0n/MH9yJiCI0TS2JkjrqSgbJM+t4K+g4SPc0ktbmSRYTqtm8MYzsGzb9RTI82xkJQCACw==" />
+    </item>
+    <item>
       <title>Exhaustism 0.3.8</title>
       <pubDate>Fri, 21 Aug 2026 07:50:00 -0700</pubDate>
       <sparkle:version>13</sparkle:version>
