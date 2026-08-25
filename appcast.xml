@@ -17,6 +17,19 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+      <title>Exhaustism 0.4.1</title>
+      <pubDate>Mon, 24 Aug 2026 18:42:51 -0700</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>0.4.1 &mdash; a display fix, and two pieces of physics riding along switched off</h3>
+        <p><b>The TVD dissipation toggle was lying to you.</b> It displayed OFF while the solver ran it ON, for any project that had never explicitly set it. The toggle now shows what actually runs. <b>No simulation result changes</b> &mdash; the solver was always doing the right thing; only the checkbox was wrong.</p>
+        <p>Also aboard, switched off by default: per-cell temperature-dependent gamma in the flux kernel, and CFTRANS unsteady friction. Both are being checked against measured data before they become defaults. <b>Your existing simulations produce identical numbers to 0.4.0.</b></p>
+      ]]></description>
+      <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.1/Exhaustism-0.4.1.zip" length="6804974" type="application/octet-stream" sparkle:edSignature="urfF+menenwhypE0Vtov5liFlRHUNQTBakCqsUbCnSXxM9RznB33bn7lA1U0j66JwTFlge/jeTe49bi2axbEDQ=="/>
+        </item>
+    <item>
       <title>Exhaustism 0.4.0</title>
       <pubDate>Sat, 22 Aug 2026 02:00:00 -0700</pubDate>
       <sparkle:version>15</sparkle:version>
