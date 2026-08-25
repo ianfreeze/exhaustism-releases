@@ -17,6 +17,15 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.3</title>
+        <pubDate>Tue, 25 Aug 2026 15:21:35 -0700</pubDate>
+        <sparkle:version>18</sparkle:version>
+        <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>Pipe wall roughness.</b> Every pipe can carry a wall-roughness height &epsilon; (mm) &mdash; the new Roughness field beside the Friction Factor. 0 = hydraulically smooth; new mild-steel tube &asymp; 0.045 mm. It never changes your steady Friction Factor.</p><p><b>Unsteady wall friction, the real kind (opt-in, off by default).</b> The solver can now model the memory of wall shear &mdash; the extra drag right after a flow reversal that a constant friction factor cannot see &mdash; using the Vardy-Brown turbulent weighting function: smooth-pipe form, or rough-pipe form when the pipe carries a roughness. With the flag off, every existing document computes bit-identical results to 0.4.2.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.3/Exhaustism-0.4.3.zip" length="6874636" type="application/octet-stream" sparkle:edSignature="wfeqe4v6ycn59Yo52WFdsDUa/CXuuc/qb/Gf2DtvVIOFDrk2OKQWTg1iJmeJsgdf6wQq3eFll27pA+E13nt2BQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.2</title>
         <pubDate>Tue, 25 Aug 2026 11:54:42 -0700</pubDate>
         <sparkle:version>17</sparkle:version>
