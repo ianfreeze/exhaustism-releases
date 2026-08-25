@@ -17,6 +17,15 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.2</title>
+        <pubDate>Tue, 25 Aug 2026 11:54:42 -0700</pubDate>
+        <sparkle:version>17</sparkle:version>
+        <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p>Auto-bend materialize: a drag that turns the run now mints a real bend into the document, with its angle, CLR and derived arc length. The solver no longer treats a turned run as straight.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.2/Exhaustism-0.4.2.zip" length="6855105" type="application/octet-stream" sparkle:edSignature="qqAxjyhbrmXcQtqzKuFJPwjyzTY/G58WEMeosgFQR38OeBMA0xPgmTWWGfXCfBkdXUB7SPAAhbXo+eeQM4zpBA=="/>
+    </item>
+    <item>
       <title>Exhaustism 0.4.1</title>
       <pubDate>Mon, 24 Aug 2026 18:42:51 -0700</pubDate>
       <sparkle:version>16</sparkle:version>
