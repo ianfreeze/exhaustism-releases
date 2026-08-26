@@ -17,6 +17,15 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.4</title>
+        <pubDate>Wed, 26 Aug 2026 13:01:00 -0700</pubDate>
+        <sparkle:version>19</sparkle:version>
+        <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>Auto-bend no longer destroys a hand-routed run.</b> Dragging a pipe that turns the run splices the new bend into your routing &mdash; the tail keeps its shape and simply follows the bend you can actually buy.</p><p><b>Your bend orientation is yours.</b> Once you set a bend's Turn (left/right), nothing the app does &mdash; dragging the angle, recomputing the route &mdash; can flip it back. A freshly minted bend can still be aimed to either side until you set its Turn: the app helps until you enter the value, then keeps its hands off.</p><p><b>Bend angles snap to the ladder.</b> A drag-made bend lands on a real part angle (7.5&deg; up to 90&deg;); wobbles under 3.75&deg; stay wobbles. A snap toggle turns the measured angle back on.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.4/Exhaustism-0.4.4.zip" length="6877327" type="application/octet-stream" sparkle:edSignature="4r0NKEnUad7oe/yojhKnXo2r620SC7KBbU9QztP7UHObiEua0hWeOroQFSVSbA+fHLcR3cYA5pfSU9oegeNDDw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.3</title>
         <pubDate>Tue, 25 Aug 2026 15:21:35 -0700</pubDate>
         <sparkle:version>18</sparkle:version>
