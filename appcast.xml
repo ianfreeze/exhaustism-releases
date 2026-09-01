@@ -17,6 +17,15 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.6</title>
+        <pubDate>Tue, 01 Sep 2026 11:42:23 -0700</pubDate>
+        <sparkle:version>21</sparkle:version>
+        <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>The burned-gas model is now on by default &mdash; saved documents' numbers move on this update.</b> Documents that never chose a gas model now run burned-exhaust-mixture gas physics end to end: gas properties follow the actual burned mixture, and inside every pipe they follow the local temperature instead of one hand-picked constant. Measured across four engines at 24 operating points: scavenging typically eases a few percent (median &asymp; 5%), drone level usually moves under 1.5 dB, and at a few points the drone's dominant harmonic re-labels where two lines sat within a dB. Documents that chose their gas model explicitly do not move. This lands once, as one re-baseline &mdash; the price of the gas being right.</p><p><b>One Collector section again.</b> Collector clocking lives inside the collector it clocks: on a split plan each bank's collector cell carries its own ring, and on a single-pipe plan the ring sits inside the Collector section. The separate "Collector Clocking" section is gone &mdash; and so is the wrong-face whole-engine ring that split plans drew inside the final collector.</p><p><b>Clocking ports now pass each other cleanly.</b> While you drag, the other ports hold still and the dragged one follows your pointer straight through them. Release on a free angle and it lands there exactly; release on top of another port and it lands beside it on the nearest free angle. No port ever moves except by your own hand.</p><p><b>Delete everything, start from scratch.</b> All primaries and the secondaries can now be removed, and a new "Delete everything&hellip;" control (it asks first) empties the whole build in one step. An emptied document shows the blank page, never a pile of faults.</p><p><b>Brake power and BMEP on sweep results (opt-in).</b> Give a document an fmep spec and Wiebe combustion and every sweep point reports brake power (kW) and BMEP (bar) &mdash; with every simplification behind the number disclosed alongside it. Without those keys the fields simply stay absent.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.6/Exhaustism-0.4.6.zip" length="7015896" type="application/octet-stream" sparkle:edSignature="fmeyOeRUIRH5KN48VAKop9/5IUyWqHNie26S/7H/P39usUtZQmFKj9+57oWPJ81o7TbLGzHju24BwnHlTOR2Cg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.4</title>
         <pubDate>Wed, 26 Aug 2026 13:01:00 -0700</pubDate>
         <sparkle:version>19</sparkle:version>
