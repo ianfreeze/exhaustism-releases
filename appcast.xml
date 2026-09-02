@@ -17,6 +17,15 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.7</title>
+        <pubDate>Wed, 02 Sep 2026 06:02:32 -0700</pubDate>
+        <sparkle:version>22</sparkle:version>
+        <sparkle:shortVersionString>0.4.7</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>Bend heat transfer is now on by default for documents that use the wall-thermal model.</b> If your document opts into <code>wallThermal</code> and its tailpipe chain carries bends, each bend now cools the gas the way a real curved tube does (a curved-pipe enhancement on the wall heat transfer, from Frank's 1986 correlation) instead of behaving like a straight run. What moves: on a chain with authored bends, scavenging reads a little higher &mdash; between +0.25 and +0.97 points at eleven of twelve measured points (7 mm mesh, two engines, six speeds; the twelfth reads &minus;0.42), shrinking as the mesh refines &mdash; while drone level moves under 0.3 dB with no harmonic re-labels. Documents with no bends in the chain, and every document that never opted into the wall-thermal model, compute the exact same numbers as before, bit for bit. To keep the old straight-pipe behaviour on a bends document, set <code>"curvature": false</code> inside its <code>wallThermal</code> spec.</p><p><b>The opt-in junction energy equation no longer hangs at low rpm.</b> <code>energyEquation</code> stays off by default and nothing changes for documents that never opted in &mdash; those compute the exact same numbers as before, bit for bit. If you had hand-set <code>"energyEquation": true</code> on a junction, a 2000 rpm point could grind for minutes and time out. The receiving face at a merge now keeps the arriving branch's own wave and gas state and lets the mixed gas carry the enthalpy behind it, and every such point finishes in the same step count as the flag-off run. Opted-in numbers move (this is a repaired model, not a re-tuned one); flag-off numbers do not.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.7/Exhaustism-0.4.7.zip" length="7019440" type="application/octet-stream" sparkle:edSignature="qL+1N3ebzrxj/cFSwZDfqiGf2NG6LK5deF1cuKBsx3RRTgM6rQBvywQ4C/2n9RsF0p5zg4twp0zLwxeNARf2Ag=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.6</title>
         <pubDate>Tue, 01 Sep 2026 11:42:23 -0700</pubDate>
         <sparkle:version>21</sparkle:version>
