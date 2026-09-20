@@ -17,6 +17,21 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.14</title>
+        <pubDate>Sat, 19 Sep 2026 23:30:00 -0700</pubDate>
+        <sparkle:version>29</sparkle:version>
+        <sparkle:shortVersionString>0.4.14</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>Read this first: no number the solver produces changes in this release.</b> Every reference the tests hold, every pinned value and every library preset is bit-identical to 0.4.13. What changes is what the app TELLS you about the sound &mdash; the spectrum panel now describes the shape of the note, not just its loudest bin.</p>
+<p><b>Merged peaks.</b> Lines that sit close enough together to be heard as one tone are now pooled into a single marker at their energy-weighted centre. The pooling window is measured in engine orders rather than in hertz, so it follows the engine up and down the rev range instead of drifting &mdash; two lines that merge at 2000 rpm are the same two lines at 5000 rpm.</p>
+<p><b>An envelope-slope line.</b> A dashed line is drawn across the spectrum giving the trend of the peaks in decibels per octave, with its shape named on the caption row. A falling envelope is what a quiet exhaust looks like; a flat one is what a droning exhaust looks like. The shapes come from Leventhall's low-frequency-noise work, not from taste.</p>
+<p><b>A band level that says which weighting you are reading.</b> The 10&ndash;200 Hz level is reported with the weighting named on screen &mdash; plain, C-weighted or A-weighted. When the C and A figures differ by more than 15 dB the panel flags it, because that gap is the published marker for low-frequency content the A-curve hides. An A-weighted number on its own has never been the right way to judge drone, and the app no longer lets you read one without knowing it.</p>
+<p><b>A beat readout.</b> When two lines sit close enough to beat against each other, the panel gives the beat rate and depth in place of the near-tie badge that 0.4.12 added. The badge stays for pairs an octave apart, where there is nothing to beat &mdash; those are two separate tones, not one wobbling one.</p>
+<p><b>Three new CSV columns.</b> <code>BandLevelDB</code>, <code>EnvelopeSlopeDBPerOct</code> and <code>BeatRateHz</code> are appended to the END of every exported row, so an existing spreadsheet or script keeps working unchanged. They are empty on a point that has no spectrum &mdash; a restored keeper, or an estimated point. Saved sweeps, the live export and <code>batch_run</code> all carry the same readouts.</p>
+<p><b>Built and not yet on screen.</b> The solver now computes the per-order level table, tracks the first two formants across a sweep, measures each order's swing between its loudest and quietest rpm, and finds the rpm where a main order crosses a resonance. Those are the numbers that say WHY an exhaust sounds the way it does rather than just how loud it is. They are tested and available to the solver; putting them in front of you is the next release.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.14/Exhaustism-0.4.14.zip" length="7214340" type="application/octet-stream" sparkle:edSignature="f+m6W+JryKYYKizU74ePYBiiFe9W0fZAh8i5ZxUJRSpN6vllwTOngfnGNZBYJb67J5aD1I92MN6x0sJwf+j/BQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.13</title>
         <pubDate>Sat, 19 Sep 2026 03:01:30 -0700</pubDate>
         <sparkle:version>28</sparkle:version>
