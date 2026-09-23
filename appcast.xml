@@ -17,6 +17,21 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.17</title>
+        <pubDate>Wed, 23 Sep 2026 09:48:10 -0700</pubDate>
+        <sparkle:version>32</sparkle:version>
+        <sparkle:shortVersionString>0.4.17</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: a graph-drawn exhaust now solves with a catalyst, muffler or resonator fitted, and the graph pane stops inventing zeros.</b> 0.4.16 let the solver run a layout you drew as a graph, but refused it the moment an in-line element was on. This release removes that refusal. No physics constant moved. No golden moved.</p>
+<p><b>In-line elements solve on the graph path.</b> Turn on the catalyst, the muffler or the resonator on a graph-drawn exhaust and the solver runs the element on the graph's one in-line node. The element run is the same code the old form uses, placed on that node's outlet pipe. On the tri-Y the graph gives the same answer as the old form to the bit, for the cat, the muffler, both resonator models and all three together. Every spectrum bin matches. An 8-4-2-1 with a catalyst solves.</p>
+<p><b>Refusals that name the fix.</b> A graph with an element on and no in-line node, or with two or more in-line nodes, or with the old post-cat merge flag set, is refused with one sentence that says what to draw.</p>
+<p><b>The graph pane shows one row per collector level.</b> A graph with two or more shared merges (a 4-2-1, an 8-4-2-1) lists each merge level. A plain single-collector graph and every old-form layout keep the one Collector row they had.</p>
+<p><b>Empty pipe fields stay empty.</b> A graph pipe whose length or bore nobody typed shows a blank field with the hint "not set" instead of 0. Tabbing through an empty field writes nothing to the document.</p>
+<p><b>Measured, nothing changed: the sixes under the 0.4.16 junction fix.</b> Six inline-six presets at 5000 / 5500 / 6000 / 6500 rpm, fixed junction against the old one: 23 of 24 points hold the firing order within 0.8 dB and every drone pick is the same frequency. The one mover is the M30B35 at 5500 rpm, where the firing order sits on a 126 dB tailpipe resonance and the fix trims it 1.4 dB. That move is converged in cycles and mesh and disappears with a longer tailpipe.</p>
+<p><b>Gate:</b> full app suite 1226 / 1226, package 291 / 291, analytic 14 / 14, green on the first run. The four canon goldens equal the 0.4.16 reference digit for digit.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.17/Exhaustism-0.4.17.zip" length="7467009" type="application/octet-stream" sparkle:edSignature="IpTviBfD1kUc+qW84tcJUEQHCjYjrBRChsIrqVfgHgwK9o/FcalIRLPs0JdACkS1xvDTaHahm2rWCsgGKb/5CQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.16</title>
         <pubDate>Wed, 23 Sep 2026 04:05:36 -0700</pubDate>
         <sparkle:version>31</sparkle:version>
