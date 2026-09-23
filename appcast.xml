@@ -17,6 +17,23 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.15</title>
+        <pubDate>Tue, 22 Sep 2026 20:00:54 -0700</pubDate>
+        <sparkle:version>30</sparkle:version>
+        <sparkle:shortVersionString>0.4.15</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>Read this first: no number the solver produces changes in this release.</b> Every golden, every pin and every library preset is bit-identical to 0.4.14. Only the reporting is new.</p>
+<p><b>The spectrum panel now names the ORDERS in the sound, not only its shape.</b> 0.4.14 told you whether the exhaust drones. This release tells you which engine orders carry the sound, where the two formants sit, and how much each order swings across the rev range.</p>
+<p><b>Order content on the spectrum panel.</b> A per-order level table (bin k = order k/2), the two formants F1 and F2 with their track, and each order's swing across the sweep. The swing needs every solved point, so it lives on the sweep result and not on a single rpm point.</p>
+<p><b>New CSV columns for order content</b>, at the END of the row, so an existing sheet or script keeps working. Empty on a point with no spectrum &mdash; a restored keeper, an estimated point.</p>
+<p><b>The keeper file carries the order readouts.</b> Save, restore and export all copy them. A keeper written by 0.4.14 still opens: the key is absent, not wrong.</p>
+<p><b>A Pareto front as a solver-side function.</b> It takes the two results, scavenging and sound, on every batch point and returns the front. It does not pick, weight or rank one against the other. <b>Not drawn in the app yet.</b> The panel that lets you sit anywhere on the front is the next release.</p>
+<p><b>The Ishihama &amp; Ito 2008 inline-four rig</b> ran as a test-only characterization. It prints the 2nd-order line at 1000&ndash;6000 rpm for a catalyst at three positions and two lengths and asserts no published number, because the paper's figures are in-pipe pressure, not exit sound. Nothing is claimed as reproduced.</p>
+<p><b>A sound-shape report for every library preset</b> is on disk beside the app's evidence: band level and envelope slope for the 13 presets and the SAE 2002 rig. One thing to know when you read it: the 10&ndash;200 Hz band has fixed hertz edges, so a six's firing line leaves it above 4000 rpm. That is the line leaving the band, not the exhaust going quiet.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.15/Exhaustism-0.4.15.zip" length="7286854" type="application/octet-stream" sparkle:edSignature="92j/y13i9nlJaF21AXlmoeDJ/ZACUfrTh3xK+adffrfy85hxuRXI7c+IdvoGylzWml/T0ZWOxqZ52eZHbKAfDQ=="/>
+    </item>
+
+    <item>
         <title>Exhaustism 0.4.14</title>
         <pubDate>Sat, 19 Sep 2026 23:30:00 -0700</pubDate>
         <sparkle:version>29</sparkle:version>
