@@ -17,6 +17,23 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.16</title>
+        <pubDate>Wed, 23 Sep 2026 04:05:36 -0700</pubDate>
+        <sparkle:version>31</sparkle:version>
+        <sparkle:shortVersionString>0.4.16</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: the phantom tone is gone, and you can now solve an exhaust you drew as a graph.</b> 0.4.15 named the orders in the sound. This release removes a tone that was never in the engine, and lets the solver run layouts the old form could not hold: 8-4-2-1, a 2-into-1-into-2, or one collector into three tips.</p>
+<p><b>The collector-merge junction no longer makes its own tone.</b> Every tri-Y preset (6 into 2 into 1) carried a line at about 275 to 300 Hz that did not follow the firing order. On the S85 it stood up to 15.8 dB over the firing order. The cause was in the junction, not the engine: the directional loss coefficients at the 2-into-1 merge could sum to a net gain, and the collector plus tailpipe rang at its quarter-wave. The fix keeps the original loss coefficients and adds one floor: when the mass-weighted sum of the losses goes negative, the same small amount is added to every coefficient until the net loss is zero. The junction can lose energy. It can no longer make it. The phantom line is 40 to 56 dB down on the S85.</p>
+<p><b>Drone picks land on the firing order again.</b> On the S65, S85, Coyote and Voodoo the drone frequency moved off the 275 to 300 Hz line and onto the firing fundamental. Part-throttle response is the same as before.</p>
+<p><b>The catalyst uses the exact viscous law.</b> The pressure loss through the monolith now uses the local gas viscosity. A fitted cat reads a little less backpressure. On a 240 mm brick the drone level moves by up to +1.7 dB at 4000 rpm. With no catalyst fitted nothing changes, to the bit.</p>
+<p><b>Canon and carplate numbers move a little.</b> The junction fix moves the canon scavenging index at 2200 and 3200 rpm by about half a percent, and the carplate pin by a few tenths. The drone pick holds on every canon point. Every moved number was reproduced at its old value with the old junction feed and at its new value with the fix on the same code, so the junction is the only cause.</p>
+<p><b>Graph-drawn exhaust layouts solve.</b> An exhaust stored as a node graph (8-4-2-1, 2 into 1 into 2, one collector into three tips) now runs through the solver. A 6-into-1 or 6-into-2-into-1 drawn as a graph gives the same result as the same layout in the old form, to the bit. A graph the solver cannot yet hold is refused with a reason. Each pipe in a graph shows its length and bore. Each junction shows a solved-as note.</p>
+<p><b>Optional muffler core porosity.</b> Set a porosity for the perforated core and the muffler adds a mean-flow loss along the perforated length (a published CFD fit, Neihguk, Munjal and Prasad 2015). No measured curve was found, so this is opt-in and has no default.</p>
+<p><b>Unchanged: exhausts without a directional-K merge do not move.</b> With the directional-K flag off, every document is bit-identical to 0.4.15. A layout stored the old way still solves the old way.</p>
+<p><b>Gate:</b> a discovery gate on <code>ff7037f</code> (app 1226 / package 276 / analytic 14) went red only on the predicted movers, every moved pin was re-frozen off the gate's own output with a junction-only proof, and the targeted confirms on the re-frozen classes are green (app 20/0, package 3/0 and 4/0). No tolerance was widened.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.16/Exhaustism-0.4.16.zip" length="7436663" type="application/octet-stream" sparkle:edSignature="M9jgtG1AMaIJSSMDgPNAkKoj0/bsstaTK6ttXmVrJ8w+tM1ePB79jEebEp0LCWl2chx/mh9rhSh+GGF6IiD5Cw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.15</title>
         <pubDate>Tue, 22 Sep 2026 20:00:54 -0700</pubDate>
         <sparkle:version>30</sparkle:version>
