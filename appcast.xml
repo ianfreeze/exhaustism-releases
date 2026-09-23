@@ -17,6 +17,23 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.18</title>
+        <pubDate>Wed, 23 Sep 2026 15:17:15 -0700</pubDate>
+        <sparkle:version>33</sparkle:version>
+        <sparkle:shortVersionString>0.4.18</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: a graph you drew now solves everything the classic layout solves, and gives the same numbers.</b> 0.4.17 let a graph-drawn exhaust run with a catalyst, muffler or resonator on. This release carries the rest of the solver onto the drawn graph. Every piece is pinned exact against the classic layout. No physics constant moved. No golden moved.</p>
+<p><b>The graph solve runs its pipes in parallel.</b> The same Solver setting that speeds up the classic layout now applies to a drawn graph. On an 8-4-2-1 it is about 3.2 times faster. Every number is identical to the serial run.</p>
+<p><b>The Wiebe burn, the port heat loss and the two-way exhaust valve run on a drawn graph.</b> The cylinder starts from the Wiebe burn and loses heat through the open port, as the classic layout has since Stage K3. With the two-way valve on, reverse flow into the cylinder is carried on both layouts alike.</p>
+<p><b>Brake power, BMEP and wall-end temperatures read out on a drawn graph.</b> Same numbers as the classic layout. Brake power without a Wiebe burn still refuses, as before.</p>
+<p><b>The whole intake network runs on a drawn graph.</b> Individual throttle bodies at wide-open throttle, a butterfly at part throttle and a shared plenum with runners all solve on the graph, with trapped mass, volumetric efficiency and the intake port trace, identical to the classic layout. Nothing about the intake is disclosed as unsolved any more.</p>
+<p><b>The plenum-volume advisory tells the truth.</b> It used to say the solver does not model the plenum as a gas volume. It has since 2026-07-19. The text now says so. With the intake network on, the two-way exhaust valve key is not read, and the solver now says so on both layouts.</p>
+<p><b>The Pressure Field panel fills in for a drawn graph.</b> The pressure field, cycle frames and per-cylinder primary fields are built along the same path the classic layout walks, and the strip's segment markers come from the path the solver walked. On a graph with a split that path has no meaning, so the fields stay empty and the solver names the node.</p>
+<p><b>Unchanged:</b> every classic-layout document, every canon golden, both SAE rigs and every shipped preset are bit-identical to 0.4.17.</p>
+<p><b>Gate:</b> full app suite 1226 / 1226, package 331 / 331, analytic 14 / 14, green on the first run. The four canon goldens equal the 0.4.16 reference digit for digit.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.18/Exhaustism-0.4.18.zip" length="7517709" type="application/octet-stream" sparkle:edSignature="kljCiDQShrPBDBaE5odld2KF5KDVIQ3X1A0ocuxobnqylcjZmJmXfBvC3teod7RT9bPpigcvIi7+8cYaUsBrDA=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.17</title>
         <pubDate>Wed, 23 Sep 2026 09:48:10 -0700</pubDate>
         <sparkle:version>32</sparkle:version>
