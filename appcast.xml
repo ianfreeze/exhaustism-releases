@@ -17,6 +17,20 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.20</title>
+        <pubDate>Thu, 24 Sep 2026 15:00:51 -0700</pubDate>
+        <sparkle:version>35</sparkle:version>
+        <sparkle:shortVersionString>0.4.20</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: the wall heat exchange, the junction backflow rule and the catalyst brick wall now run from published physics by default, more than one catalyst brick can sit in one exhaust, a stepped primary solves on the drawn graph, no user-facing string judges a physical result, and two opt-in models arrive with every key off: a two-duct perforated muffler and a measured-cylinder pressure boundary.</b> Three defaults moved, so the four canon goldens moved with them and were re-frozen from the same solves. Every opt-in key is absent as shipped and the key-absent path is bit-identical by pin.</p>
+<p><b>Wall heat exchange: Malchow h(Re) per cell replaces the constant 100 W/m&sup2;K.</b> The constant had no source and cooled resting gas between pulses as hard as the blowdown gas. Malchow's h goes to zero as the gas stops, so the gas rides hotter between pulses and the closed-period pressure hump lands closer to the measured timing. The wall temperature stays at 500 K on every pipe role; that number is a placeholder and every result now says so. A pipe-skin temperature reading at load replaces it. <code>wallHeatNusselt: false</code> returns the 0.4.19 digits bit for bit. Canon scavenging moved &minus;0.52 / &minus;0.45 / +1.22 / &minus;0.59 points and canon drone SPL moved +0.08 / &minus;0.15 / &minus;0.02 / +0.04 dB at 2200 / 2400 / 3200 / 4000 rpm. Every drone frequency held.</p>
+<p><b>Junction backflow regime is the default.</b> When the common pipe of a Y or tee donates gas back toward the branches while a branch still arrives, every inlet face takes the common pipe's static pressure (Idelchik 1986, Sepsy &amp; Pies 1973). Wherever the common pipe flows away the solve is unchanged. On 44 screened points every drone frequency held and no solve diverged. The stepped tri-Y with an expanding secondary that diverged before now solves.</p>
+<p><b>Catalyst brick wall state is on for every cat piece.</b> The brick wall temperature is the cycle-mean gas temperature of each brick cell instead of the tailpipe's fixed 500 K. The brick-exit gas now sits within 15 K of the cat-off gas at the same station. No shipped preset carries a catalyst.</p>
+<p><b>Added:</b> more than one catalyst brick per exhaust, each with its own body diameter, open area and channel size (nil = the shared header brick, bit-identical); a stepped primary on the drawn graph, exact against the classic layout; an opt-in two-duct perforated muffler (shell, hole, wall-thickness and porosity keys; frequency-dependent attenuation; at least 4 cycles run and disclosed); an opt-in measured-cylinder pressure boundary on the classic no-intake solve; no user-facing string judges a physical result.</p>
+<p><b>Gate:</b> the N11 batch's own gate went RED on a package-leg crash (two lanes edited the graph path blind to each other; a per-pipe array was one entry short and was read through an unchecked pointer). Fixed, pinned, and proven by this release's gate: full app suite 1226 / 1226, package 406 / 406, analytic 14 / 14. The four canon goldens now read 44.469004 / 100.551109, 45.933140 / 101.492175, 29.742631 / 108.361233, 23.266440 / 104.707643 at 2200 / 2400 / 3200 / 4000 rpm.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.20/Exhaustism-0.4.20.zip" length="7658228" type="application/octet-stream" sparkle:edSignature="s2nDMZLr0E4WhvPomLshSRPLQhjCDaaQ1wOB1hbnVLBPGq8olTT6Lq+ujGbyjU8wwtTnNghorgSaW/NYId9eDQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.19</title>
         <pubDate>Wed, 23 Sep 2026 20:36:51 -0700</pubDate>
         <sparkle:version>34</sparkle:version>
