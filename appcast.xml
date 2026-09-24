@@ -17,6 +17,20 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.19</title>
+        <pubDate>Wed, 23 Sep 2026 20:36:51 -0700</pubDate>
+        <sparkle:version>34</sparkle:version>
+        <sparkle:shortVersionString>0.4.19</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: a drawn graph now shows its own pipe silhouette, batch_run can read the in-pipe pressure by engine order in kPa, and a pipe taper hidden in a graph file is stripped on load and reported.</b> No physics constant moved. No golden moved. Every classic-layout document is bit-identical to 0.4.18.</p>
+<p><b>The Pressure Field strip draws a drawn graph's own pipe silhouette.</b> The bore envelope on a graph document used to come from the classic header, so the silhouette knew nothing of the path the solver walked. It now comes from the walked edges: pipe bores and taper ends, the step in a stepped primary, catalyst body and muffler core diameters along a chain. On the tri-Y and the resonator shape it equals the classic layout point for point.</p>
+<p><b>batch_run reads the in-pipe pressure amplitude by engine order, in kPa.</b> Ask for <code>emitTraces.orders</code> and every station trace carries <code>orderAmplitudesKPa</code> and <code>peakToPeakKPa</code>. Leave the key out and the output is byte-identical to before. This is the axis Ishihama &amp; Ito 2008 plot on. Compared there, the model's catalyst moves the 2nd order in the same direction as the paper, by a smaller amount at the paper's rpm. The paper is still not reproduced.</p>
+<p><b>A pipe taper stored in a graph file is stripped on load and named.</b> The one-diameter rule now covers graph edges as well as classic pipes, and the load note names the pipe. The app's own controls never wrote such a taper, so no document made in the app changes.</p>
+<p><b>Unchanged:</b> every classic-layout document, every canon golden, both SAE rigs and every shipped preset are bit-identical to 0.4.18.</p>
+<p><b>Gate:</b> full app suite 1226 / 1226, package 344 / 344, analytic 14 / 14, green on the first run. The four canon goldens equal the 0.4.16 reference digit for digit.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.19/Exhaustism-0.4.19.zip" length="7537839" type="application/octet-stream" sparkle:edSignature="2VTWYBTJvfAI/RzFk8lFuhk9JrSefM/9Y7wMYfWPix6bQh9JtfXSiPROLNlsVHGQe0PSqfWmwNJj/lABMc6QCg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.18</title>
         <pubDate>Wed, 23 Sep 2026 15:17:15 -0700</pubDate>
         <sparkle:version>33</sparkle:version>
