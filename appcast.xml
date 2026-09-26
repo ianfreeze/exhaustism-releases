@@ -17,6 +17,19 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.22</title>
+        <pubDate>Sat, 26 Sep 2026 00:19:44 -0700</pubDate>
+        <sparkle:version>37</sparkle:version>
+        <sparkle:shortVersionString>0.4.22</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: every section of the settings pane fits the pane.</b> In 0.4.21 the Intake &amp; Combustion section was wider than the right-hand pane, and every row was cut off on both edges. That is fixed. No physics, no solver and no document changed. Every result is the same as 0.4.21.</p>
+<p><b>Three rows were wider than the pane.</b> Cylinder model needed 386 pt, Per-cell &gamma;(T) 376 pt and the resonator Model row 318 pt, in a 276 pt column. Each row now puts its label above its choices. The choices show side by side when they fit, and as a pop-up menu when they do not.</p>
+<p><b>One wide row no longer shifts the whole pane.</b> If a row is ever too wide again, only that row&rsquo;s right end is cut off.</p>
+<p><b>The pane cannot be dragged narrower than its rows.</b> The narrowest width is now 301 pt (it was 220). A new install opens the pane at 320 pt. A width saved below 301 pt is drawn at 301 pt.</p>
+<p><b>Smaller fixes in the same pane:</b> the &lambda; row&rsquo;s default / authored tag sits next to its label; burned-gas &gamma; and R show on two rows; unit labels such as &deg;BTDC and J/kg&middot;K stay on one line; the Gas Properties checkboxes line up on the left.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.22/Exhaustism-0.4.22.zip" length="7767624" type="application/octet-stream" sparkle:edSignature="dENfRu4tCkg00zGQa2AA6a3FQKYiZvwuhaeIHcDNQ7WFq7La9TADNpWR0zI9sVeVGuHELUY9oL2auWB5Pn0iBQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.21</title>
         <pubDate>Fri, 25 Sep 2026 01:57:08 -0700</pubDate>
         <sparkle:version>36</sparkle:version>
