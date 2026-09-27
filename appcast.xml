@@ -17,6 +17,19 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.23</title>
+        <pubDate>Sun, 27 Sep 2026 04:10:25 -0700</pubDate>
+        <sparkle:version>38</sparkle:version>
+        <sparkle:shortVersionString>0.4.23</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: X-pipes and H-pipes are simulated, and a true dual is simulated as two separate exhausts.</b> An X or H drawn in the Exhaust pane, or added to a topology graph, now runs as the real pipes and junctions it is. A true dual drawn as one pipe per bank to its own tip now runs as two runs to two tips; before, it was solved as one collector and one tip. No shipped preset, reference engine or published rig moves: every number on an existing layout is the same as 0.4.22.</p>
+<p><b>H-pipe</b> = a tee on each bank pipe, joined by a balance tube. <b>X-pipe</b> = both bank pipes merge into a centre tube that splits again; the Borla SwitchFire is an X with a longer centre. The X is a full merge through one junction pressure, the upper bound on how much the banks mix, and the row says so. A Z-pipe stays described, not simulated: there is no published geometry for its four channels.</p>
+<p><b>Measured on a cross-plane V8 true dual:</b> with an X, the half orders at each tailpipe fall by 50&ndash;78 dB; with an H, by 5&ndash;30 dB, less at high rpm.</p>
+<p><b>Tips.</b> Any layout with two or more tips has a Tip spacing field (Exhaust &#9656; Tips). There is no default: until a spacing is entered the tips are treated as one point, and the row says so. With a spacing, each tip radiates from its own amplitude and phase through the outside air. The spectrum can show each tailpipe on its own (&ldquo;Tailpipes&rdquo;).</p>
+<p><b>Also:</b> the two-tip radiation term uses the outside air&rsquo;s sound speed and no longer floors at the incoherent sum; the cycles tooltip reads &ldquo;closer periodic convergence&rdquo;.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.23/Exhaustism-0.4.23.zip" length="7929131" type="application/octet-stream" sparkle:edSignature="+5sbwFhzLAhYzu7G7sKTma6MxdES/ZsKdeFrz2+CL+U6L2iKZn8b/UkD1MP72OZorfj2WspeRZRwfgv6mK4sCQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.22</title>
         <pubDate>Sat, 26 Sep 2026 00:19:44 -0700</pubDate>
         <sparkle:version>37</sparkle:version>
