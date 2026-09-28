@@ -17,6 +17,18 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.24</title>
+        <pubDate>Sun, 27 Sep 2026 18:48:51 -0700</pubDate>
+        <sparkle:version>39</sparkle:version>
+        <sparkle:shortVersionString>0.4.24</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: scavenging and loudness change on every multi-cylinder layout, most at high rpm.</b> Every junction &mdash; every collector, merge and crossover tee &mdash; now loses pressure the way published tee and wye measurements show. Note frequencies do not move.</p>
+<p><b>Why.</b> Bassett, Winterbone &amp; Pearson (2001) define a junction loss coefficient as the drop in total pressure over the common pipe&rsquo;s dynamic head. The app applied their coefficients on top of a junction that already carried the kinetic-head term, so every leg was one velocity head off. Against published steady tee and wye data the mean error falls from 1.66 / 0.91 / 1.07 to 0.74 / 0.23 / 0.59 heads, and the coefficients now match Bassett&rsquo;s own formulas.</p>
+<p><b>On the reference El Presidente header</b>, scavenging reads 47.75 / 46.58 / 28.77 / 3.84 at 2200 / 2400 / 3200 / 4000 rpm (was 44.63 / 45.52 / 25.93 / 22.33). The 4000 rpm change is a real regime change: without the old form&rsquo;s idle-inlet suction, a neighbour cylinder&rsquo;s wave now arrives inside the valve-overlap window. It is mesh-converged.</p>
+<p><b>Unchanged against measurement:</b> the MDPI tee and Bassett shock-tube traces still match; the SAE 2002, SAE 2004, NASA and Ishihama rigs move within their reading uncertainty or not at all; pipe-wall temperatures move within the model&rsquo;s band.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.24/Exhaustism-0.4.24.zip" length="7929114" type="application/octet-stream" sparkle:edSignature="5BBUMw0cV0FqnVu9J+bziDJzuteGcLIVFXmKcoDLlpEHfB4w18XRw4wBOem4RcbOcHA0zpzLFv86hdsgxCMvCQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.23</title>
         <pubDate>Sun, 27 Sep 2026 04:10:25 -0700</pubDate>
         <sparkle:version>38</sparkle:version>
