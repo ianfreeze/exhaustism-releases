@@ -17,6 +17,20 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.25</title>
+        <pubDate>Tue, 29 Sep 2026 19:25:00 -0700</pubDate>
+        <sparkle:version>40</sparkle:version>
+        <sparkle:shortVersionString>0.4.25</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: no number on any existing layout moves.</b> Every preset, reference engine and published rig solves exactly as in 0.4.24. This release adds a batch design-of-experiments run and two opt-in open-end models. All three are off until you turn them on.</p>
+<p><b>Updating:</b> if an older update alert is still open, click Remind Me Later first. Then choose Check for Updates&hellip; and install only when the alert says 0.4.25. The updater keeps an alert it has already shown and does not re-read the feed until that alert closes.</p>
+<p><b>Design-of-experiments batch runs.</b> <code>batch_run doe</code> sweeps a grid of design choices, solves each one, and reports the Pareto front &mdash; the designs no other design beats on every chosen output at once.</p>
+<p><b>Open-end inflow dynamic head (opt-in).</b> When gas flows back in through an open tailpipe end, the end pressure follows Winterbone &amp; Pearson &sect;5.5 eq. 5.22b instead of sitting at ambient.</p>
+<p><b>Open-end entry loss (opt-in).</b> An entry-loss coefficient at the open end on inflow, set by whether the tip is flush and by its wall thickness (Idelchik, Diagram 3-1). When a case falls outside the table, the model does not guess: the result lists the pipe it did not apply to.</p>
+<p><b>Checked, and unchanged:</b> linear pipe damping was tested against the SAE 2002 and Ishihama rigs and is not the missing physics behind the SAE 2002 amplitude gap.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.25/Exhaustism-0.4.25.zip" length="8079611" type="application/octet-stream" sparkle:edSignature="aeCqPbcyeFi1d9PIR4l4pXqLX66R+bj5RbSiUOX+aJS6uxxCsUucrPcbCprI7hwdA0VkfAIZI4LpjAcH4KHwCg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.24</title>
         <pubDate>Sun, 27 Sep 2026 18:48:51 -0700</pubDate>
         <sparkle:version>39</sparkle:version>
