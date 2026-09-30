@@ -17,6 +17,21 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.26</title>
+        <pubDate>Wed, 30 Sep 2026 16:33:00 -0700</pubDate>
+        <sparkle:version>41</sparkle:version>
+        <sparkle:shortVersionString>0.4.26</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: scavenging and drone loudness change by small amounts on every layout.</b> The default pipe wall friction now comes from a published source. On the reference El Presidente header, scavenging reads 47.63 / 46.52 / 28.77 / 4.06 at 2200 / 2400 / 3200 / 4000 rpm (was 47.75 / 46.58 / 28.77 / 3.84), and drone level reads 101.46 / 101.81 / 111.36 / 106.50 dB (was 101.47 / 101.82 / 111.41 / 106.59). Drone frequencies do not move. Saved documents keep the friction value they carry.</p>
+<p><b>Updating:</b> If an older update alert is still open, click Remind Me Later first, then choose Check for Updates&hellip; and install only when the alert says 0.4.26.</p>
+<p><b>Wall friction 0.015 &rarr; 0.016.</b> The solver uses the Darcy form. Winterbone &amp; Pearson (1999, eq. 2.39) give 0.004&ndash;0.01 in the Fanning form, which is 0.016&ndash;0.040 in the Darcy form. The old 0.015 had no source and sat just below that band. 0.016 is its lower edge. It moves the SAE 2002 crest and trough toward the paper, moves the Ishihama in-pipe level toward the paper, and holds the SAE 2004 rig.</p>
+<p><b>Orbit mean (opt-in).</b> Some layouts never settle to one repeating cycle. Turn on <code>orbitMeanCycles</code> to run more cycles, find the repeat period, and report the mean over it.</p>
+<p><b>Cycle-periodicity readout.</b> Each result now says how much its last cycles still differ. Above 1 %, it says the answer has not settled.</p>
+<p><b>Also added:</b> a response-surface fit on design-of-experiments output, a cap on how many rpm points a batch solves at once, an opt-in Haaland friction correlation, and an opt-in curtain valve area.</p>
+<p><b>Fixed:</b> the horn cutoff readout and Target Sound use the sound speed and density of the gas actually in the pipe, not a fixed 600 m/s.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.26/Exhaustism-0.4.26.zip" length="8202818" type="application/octet-stream" sparkle:edSignature="BFhFq56u3L0UisVcNDwR5Py9RBedBofPiC9qExxB3zIkpvxz0OcMbXugASiEvNTpC5KUQkP4lA9QV7v0anTjDA=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.25</title>
         <pubDate>Tue, 29 Sep 2026 19:25:00 -0700</pubDate>
         <sparkle:version>40</sparkle:version>
