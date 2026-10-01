@@ -17,6 +17,25 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.27</title>
+        <pubDate>Thu, 01 Oct 2026 09:04:21 -0700</pubDate>
+        <sparkle:version>42</sparkle:version>
+        <sparkle:shortVersionString>0.4.27</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: no number on any layout moves.</b> Every preset, reference engine and published rig solves exactly as in 0.4.26. This release tells you where the model is known to miss the published measurements, and by how much.</p>
+<p><b>Updating:</b> If an older update alert is still open, click Remind Me Later first, then choose Check for Updates&hellip; and install only when the alert says 0.4.27.</p>
+<p><b>Help &rsaquo; Limitations</b> now lists four limits, each with the published rig it was measured against:</p>
+<ul>
+<li>Pressure while the exhaust valve is closed is not validated. On the SAE 2002 single-cylinder rig at 9000 rpm the model's closed-valve crest reads 1.99 bar ratio against 1.27 measured. Open-valve pressure on the same rig is within 0.30 bar ratio.</li>
+<li>Catalyst length and position move the drone line in the measured direction, by less than the published experiment (Ishihama &amp; Ito 2008). Doubling a brick reads &minus;0.6 to &minus;2.3 dB here against &minus;4.1 &plusmn; 1.5 dB measured. Treat a catalyst-driven drone change as a lower bound.</li>
+<li>The muffler damping k (default 2000) is a placeholder. On the SAE 2004 silencer rig the model's pulse reads 160&deg; wide at half height against 58&deg; measured.</li>
+<li>The app samples the last of N cycles and does not yet show whether that cycle repeats the one before it. Chamber and resonator layouts may need 20&ndash;30 cycles.</li>
+</ul>
+<p>The catalyst Position and Substrate length fields, the muffler Damping k field and the Cycles field carry the same numbers in their help text.</p>
+<p><b>Sources:</b> more physical constants in the solver now cite their published source. Values with no source yet are tagged as placeholders. Ambience and gear-shift sound values are marked as rendering choices, not physics.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.27/Exhaustism-0.4.27.zip" length="8206099" type="application/octet-stream" sparkle:edSignature="1m3Md8DIWcamip5v86kkiQw93RzOasGoqMtq51ckgzw7cG32yLB8DEQnYW+9oa6gZ2sZwTevVawNIJOtX4YsDw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.26</title>
         <pubDate>Wed, 30 Sep 2026 16:33:00 -0700</pubDate>
         <sparkle:version>41</sparkle:version>
