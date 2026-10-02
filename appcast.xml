@@ -17,6 +17,22 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.28</title>
+        <pubDate>Thu, 01 Oct 2026 21:33:55 -0700</pubDate>
+        <sparkle:version>43</sparkle:version>
+        <sparkle:shortVersionString>0.4.28</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: no number on any layout moves.</b> This release corrects three Help statements that were wrong, and one warning that told you something the solver does not do.</p>
+<p><b>Updating:</b> If an older update alert is still open, click Remind Me Later first, then choose Check for Updates&hellip; and install only when the alert says 0.4.28.</p>
+<ul>
+<li><b>Wall heat transfer is ON by default.</b> Help said there was none. The solver applies the Malchow (1979) wall heat correlation in every main-path pipe cell. The Inspector Wall heat toggle turns it off.</li>
+<li><b>Temperature and &gamma; vary along each pipe.</b> Help said both were constant. The gas composition is constant: one burned mixture at the document &lambda; fills every pipe.</li>
+<li><b>The coarse-mesh warning no longer says the pipe gets shorter.</b> The solver coarsens the mesh and keeps the length you entered. The warning now gives the cell count and cell size.</li>
+<li><b>The pipe-wall temperature starts at 500 K (227 &deg;C).</b> This is a placeholder. One published diesel measurement reads 466&ndash;521 K. No gasoline header measurement exists yet. Help &rsaquo; Limitations now says so.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.28/Exhaustism-0.4.28.zip" length="8208169" type="application/octet-stream" sparkle:edSignature="C6Cs5JTi1Jyfdofk47eWixeOeqJ1duqWFU3RkRVOPNvz8oS3BLDThD8jbE5aJPyjtToavEE9go9tsKa6KElnCA=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.27</title>
         <pubDate>Thu, 01 Oct 2026 09:04:21 -0700</pubDate>
         <sparkle:version>42</sparkle:version>
