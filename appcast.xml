@@ -17,6 +17,22 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.29</title>
+        <pubDate>Sat, 03 Oct 2026 17:20:08 -0700</pubDate>
+        <sparkle:version>44</sparkle:version>
+        <sparkle:shortVersionString>0.4.29</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: exported pressure and temperature traces now place each point where it really is along the pipe.</b> No scavenging, drone or loudness number on any layout moves.</p>
+<p><b>Updating:</b> If an older update alert is still open, click Remind Me Later first, then choose Check for Updates&hellip; and install only when the alert says 0.4.29.</p>
+<ul>
+<li><b>Exported traces put points too far down the pipe.</b> Every point after the first junction sat about 30 mm too far downstream at the 7 mm mesh. Points now sit at their true positions, and the last point of a pipe lands on the open end you drew. Every validation readout held within 0.006.</li>
+<li><b>The junction error message now quotes the measured miss:</b> 0.23&ndash;0.74 velocity heads from the published Idelchik data. It used to say one velocity head.</li>
+<li><b>Help &rsaquo; Limitations adds three items:</b> the formant growth label's 25 % boundary is a placeholder; muffler porosity is modelled only when you enter it; a hot pipe with friction and wave loss both off can ring up (every shipped preset carries both losses).</li>
+<li>The TVB limiter constant now cites Shu (1987), and the &lambda; ceiling of 2.0 is documented as a typo guard.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.29/Exhaustism-0.4.29.zip" length="8211087" type="application/octet-stream" sparkle:edSignature="mu9FtjHO2IAyLI8SG79JCkEZIf7PTpOg7Jw6zygGzzax66ySNJnG2lcNksMlY9lqeJVzlw8VF9MxLdGkDJ7vBg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.28</title>
         <pubDate>Thu, 01 Oct 2026 21:33:55 -0700</pubDate>
         <sparkle:version>43</sparkle:version>
