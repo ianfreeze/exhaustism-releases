@@ -17,6 +17,25 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.31</title>
+        <pubDate>Sun, 04 Oct 2026 14:48:54 -0700</pubDate>
+        <sparkle:version>46</sparkle:version>
+        <sparkle:shortVersionString>0.4.31</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: more of what you draw now simulates, and the app tells you by name when it does not.</b> The reference engines and the published test rigs give the same numbers as 0.4.30.</p>
+<ul>
+<li><b>Post-Cat Merge beside branch rows</b> now runs as one exhaust, using the Branch K you entered.</li>
+<li><b>Post-Cat Merge after a topology graph with one tip</b> is laid after the graph's tail pipe.</li>
+<li><b>Open 4-2 and 8-4 headers</b> (secondaries, no collector) simulate, each bank to its own open tip.</li>
+<li><b>Open primaries with a cat, muffler, resonator or element chain:</b> each runner gets its own copy, and the Simulate pane says so.</li>
+<li><b>Step and bend on any topology graph pipe.</b></li>
+<li><b>Storing a topology graph keeps your pipe sizes</b> instead of starting every graph pipe empty.</li>
+<li><b>Things that were ignored are now solved:</b> a Post-Cat Merge element chain, the per-bank Mid Pipe on a 6&rarr;2 with branch rows, and per-tip bores for sound. Numbers on those layouts move.</li>
+<li>Layouts that still cannot simulate are refused by name, with the fix.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.31/Exhaustism-0.4.31.zip" length="8597902" type="application/octet-stream" sparkle:edSignature="coI/w0awc7fx6dTJrNLfd1R6SOEk3NwXWPp1KG5CV4BOjf3YuNXdJAFDdN9rKoBvXbyaJyDHagQ28UUr9yUvCw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.30</title>
         <pubDate>Sun, 04 Oct 2026 07:28:33 -0700</pubDate>
         <sparkle:version>45</sparkle:version>
