@@ -17,6 +17,25 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.30</title>
+        <pubDate>Sun, 04 Oct 2026 07:28:33 -0700</pubDate>
+        <sparkle:version>45</sparkle:version>
+        <sparkle:shortVersionString>0.4.30</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: far more of what you can build now simulates.</b> The reference engines and the published test rigs give the same numbers as 0.4.29.</p>
+<ul>
+<li><b>X and H crossovers in real systems.</b> An X or H now simulates with cats, mufflers and resonators on each bank, above and below the crossover, with more than one crossover, and with a merge collector after it. A cat, muffler or resonator can sit directly after the X or H.</li>
+<li><b>Branch chains in any order.</b> Each bank keeps its own bore and taper. A resonator tee on each bank of a branch row now simulates. A header with three or more banks gets one cell per bank.</li>
+<li><b>A two-face header with no chain</b> simulates as two pipes to two open tips, as drawn.</li>
+<li><b>Open primaries (zoomies)</b> simulate, each runner ending open, with the sound summed across the tips.</li>
+<li><b>An authored topology graph with a cat, muffler or resonator</b> now simulates; the parts ride the tailpipe run.</li>
+<li><b>Odd-fire V engines:</b> a new Crank pins setting next to V Angle.</li>
+<li><b>Values are no longer changed without telling you:</b> short cats and mufflers solve at the length you enter, and a stepped primary with a taper keeps both.</li>
+<li>A 6&rarr;2 header with a 3- or 4-run Post-Cat Merge is now refused by name with the fix, instead of silently running one collector.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.30/Exhaustism-0.4.30.zip" length="8361809" type="application/octet-stream" sparkle:edSignature="3vrXq6jPK2VZjBmAaQldrPQL0j+ridQVIY6t2xPGuwvzLeZ5CgRd9kCLiA+1Jf7G6ZM5qCzxMOZ71mwObqjZCw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.29</title>
         <pubDate>Sat, 03 Oct 2026 17:20:08 -0700</pubDate>
         <sparkle:version>44</sparkle:version>
