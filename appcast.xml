@@ -17,6 +17,27 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.32</title>
+        <pubDate>Mon, 05 Oct 2026 11:36:55 -0700</pubDate>
+        <sparkle:version>47</sparkle:version>
+        <sparkle:shortVersionString>0.4.32</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: more of what you can draw now simulates. What still cannot simulate is refused by name, with the fix. Every result moves a small amount, because the exhaust gas now carries argon.</b></p>
+<ul>
+<li><b>Exhaust gas with argon.</b> The burned gas now carries the 0.934 % argon in the intake air. Before, it was counted as nitrogen. On the El Presidente reference, scavenging moves by 0.32 % or less at 2200, 2400 and 4000 rpm and by 2.78 % at 3200 rpm. SPL moves by 0.17 dB or less. The drone frequency does not change.</li>
+<li><b>&ldquo;Apply to Header&rdquo; on a new engine</b> now gives a layout that simulates.</li>
+<li><b>New layouts that simulate:</b> a 6&rarr;2 header with a 4-run Post-Cat Merge, a Post-Cat Merge on open primaries, a 6&rarr;2&rarr;1 header with no secondaries, and a stored topology graph with an element run.</li>
+<li><b>Each bank, muffler and resonator keeps its own values.</b> Before, the second bank used the first bank&rsquo;s values, and every muffler shared one set.</li>
+<li><b>A missing secondary or primary is no longer copied from its neighbour.</b> The app names the bank and the field to fill in.</li>
+<li><b>A new &ldquo;About this result&rdquo; row</b> lists every note the solver attached to the run.</li>
+<li><b>The friction field now says &ldquo;Darcy friction factor&rdquo;</b>, the form the solver has always used.</li>
+<li><b>New documents start with the intake model on.</b> Saved documents and presets keep their own intake setting.</li>
+<li><b>Documents with an intake model open even if the intake runner lacks newer pipe fields.</b> Missing fields take their defaults. Before, such a file failed to open.</li>
+<li><b>Experimental options</b>, off unless you turn them on: catalyst face losses, muffler packing absorption, gas composition, unsteady friction and open-end inflow.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.32/Exhaustism-0.4.32.zip" length="9245674" type="application/octet-stream" sparkle:edSignature="Msq3pAHmC6qV8r1vBjCGjDs80E8jYtdOgw+ZSCtefYxABAzlj9gvNJroSlEnhHSDS/FDkh6xhuLBdqizOZfbAA=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.31</title>
         <pubDate>Sun, 04 Oct 2026 14:48:54 -0700</pubDate>
         <sparkle:version>46</sparkle:version>
