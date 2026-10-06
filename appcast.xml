@@ -17,6 +17,27 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.33</title>
+        <pubDate>Tue, 06 Oct 2026 04:44:50 -0700</pubDate>
+        <sparkle:version>48</sparkle:version>
+        <sparkle:shortVersionString>0.4.33</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: the app simulates the layout you pick, and every open pipe end now has an entry loss. Results move where a pipe end is open and where pipes of different gas composition meet.</b></p>
+<ul>
+<li><b>Every open pipe end has an entry loss, on by default.</b> The three open-end settings (inflow, hydraulic diameter, entry loss) are on unless you turn them off. A saved document that turned one off keeps it off.</li>
+<li><b>The tip is read from your drawing.</b> With no tip type entered, the end is a plain protruding tube with that pipe&rsquo;s own wall thickness. An entered tip type or wall thickness still wins.</li>
+<li><b>&ldquo;About this result&rdquo; names each open end&rsquo;s tip,</b> where it came from, the wall thickness and the loss coefficient.</li>
+<li><b>A 180&deg; cat cone is the same as the plain step.</b></li>
+<li><b>A junction hands each pipe the full energy that arrived.</b> Results move only where pipes of different gas composition meet. Single-pipe layouts do not move.</li>
+<li><b>&ldquo;Apply to Header&rdquo; with 6&rarr;2&rarr;1 now applies 6&rarr;2&rarr;1</b> and adds one secondary per bank, editable in the Inspector.</li>
+<li><b>A 6&rarr;2&rarr;1 header with no secondaries and no collector faces now simulates.</b> &ldquo;About this result&rdquo; names the lengths and bores the app supplied.</li>
+<li><b>A 6&rarr;2 header with 3 Parallel runs now simulates</b> through a trunk pipe sized like the collector faces coming in. New Trunk Length and Trunk &Oslash; fields take your own values.</li>
+<li><b>Remedies no longer tell you to change your layout.</b> Each one names the Inspector field to fill in or delete.</li>
+<li><b>Opt-in options</b>, off unless you turn them on: a cat inlet in two steps, and cat channel heat exchange.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.33/Exhaustism-0.4.33.zip" length="9330048" type="application/octet-stream" sparkle:edSignature="6HisEL8NFcNOXsAFp07I4g9DG259E6YBmo7izMA4KZH4nPLWZPPbPIGl+0uV1oxlqU5XfDshOAXXriWFG1RFDw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.32</title>
         <pubDate>Mon, 05 Oct 2026 11:36:55 -0700</pubDate>
         <sparkle:version>47</sparkle:version>
