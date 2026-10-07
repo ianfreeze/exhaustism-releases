@@ -17,6 +17,20 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.34</title>
+        <pubDate>Wed, 07 Oct 2026 07:41:20 -0700</pubDate>
+        <sparkle:version>49</sparkle:version>
+        <sparkle:shortVersionString>0.4.34</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: the Exhaust inspector fits its pane again. Every result is identical to 0.4.33.</b></p>
+<ul>
+<li><b>Exhaust inspector width fixed.</b> With the per-bank cam clocking cells open, the direction picker pushed the pane 10 to 29 points too wide. The picker now sits on its own line.</li>
+<li><b>One shared solver path for more layouts.</b> Open primaries, stored graphs, 6&rarr;2&rarr;1 with supplied secondaries, bare 6&rarr;2, Post-Cat Merge face splits and branch rows (including X and H) are now built from the same parts. Results match 0.4.33 digit for digit.</li>
+<li><b>Experimental catalyst channel heat exchange</b> (off unless you turn it on) leaks less heat through the brick wall model. It stays off by default.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.34/Exhaustism-0.4.34.zip" length="9407056" type="application/octet-stream" sparkle:edSignature="VPWrGIuY9thOKgRflu8BR1N/dXIgPtFm159f+9R4ysUXCW80LmiUyWDERoJO21gg2CifD5gfZsOtrHp/3dCDDQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.33</title>
         <pubDate>Tue, 06 Oct 2026 04:44:50 -0700</pubDate>
         <sparkle:version>48</sparkle:version>
