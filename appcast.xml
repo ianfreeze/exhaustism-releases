@@ -17,6 +17,19 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.35</title>
+        <pubDate>Wed, 07 Oct 2026 23:46:26 -0700</pubDate>
+        <sparkle:version>50</sparkle:version>
+        <sparkle:shortVersionString>0.4.35</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: nothing changes in your results. Every preset gives exactly the same numbers as 0.4.34.</b></p>
+<ul>
+<li><b>Every library preset and every 6&rarr;1 and 6&rarr;2&rarr;1 header now solves on the shared solver path.</b> Each result was checked against the old solver field by field and digit by digit, and none changed. Solve speed is the same.</li>
+<li><b>A seeded measured cylinder-pressure boundary</b> (an advanced option) still uses the old solver until the shared path supports it.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.35/Exhaustism-0.4.35.zip" length="9431587" type="application/octet-stream" sparkle:edSignature="cp5/CoT923s/Xb98iio7KAb36XkIfiYV9a8YGgGM1rNN/8x6MFaK7PjGj4eFjuhED8cLOqzUmFPGA3UE3NY5Ag=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.34</title>
         <pubDate>Wed, 07 Oct 2026 07:41:20 -0700</pubDate>
         <sparkle:version>49</sparkle:version>
