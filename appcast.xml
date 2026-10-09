@@ -17,6 +17,23 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.41</title>
+        <pubDate>Fri, 09 Oct 2026 16:36:30 -0700</pubDate>
+        <sparkle:version>55</sparkle:version>
+        <sparkle:shortVersionString>0.4.41</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: every number field shows its number again, and pipe joints are modelled the way they are built.</b></p>
+<ul>
+<li><b>Number fields fixed.</b> Lengths, bores, angles and other values were blank, and a typed number vanished after Return. Each field now shows its value.</li>
+<li><b>Cylinder count and engine layout are separate inputs.</b> A V engine changed from 6 to 8 cylinders becomes a V8, and the bank split, firing order and primaries follow.</li>
+<li><b>A 6&rarr;2 header with a Post-Cat Merge simulates</b> &mdash; for example two pipes, one cat on each, merged into one after the cats.</li>
+<li><b>Pipe joints:</b> where bores differ, a small change is a weld and a bigger one gets a reducer at the next pipe (ASME B16.9 length). El Presidente moves: scavenging &minus;6 % at 2200&ndash;2400 rpm, +2 % at 3200, &minus;11 % at 4000. Drone frequencies do not change.</li>
+<li><b>Bends</b> have angle and radius fields, and the loss comes from that shape. The hidden collector-to-mid-pipe loss fields are gone.</li>
+<li><b>Plain words</b> in every message.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.41/Exhaustism-0.4.41.zip" length="9466624" type="application/octet-stream" sparkle:edSignature="KGSEfLawXdp0chwkSCnOySNyEhErZfNfvrw6duQPYXeBuykMs425IKqPqimBgEuMASpb3LtCmtMHfTVVHe2qDw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.39</title>
         <pubDate>Fri, 09 Oct 2026 02:10:04 -0700</pubDate>
         <sparkle:version>54</sparkle:version>
