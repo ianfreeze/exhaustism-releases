@@ -17,6 +17,19 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.39</title>
+        <pubDate>Fri, 09 Oct 2026 02:10:04 -0700</pubDate>
+        <sparkle:version>54</sparkle:version>
+        <sparkle:shortVersionString>0.4.39</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: layouts with a catalytic converter move a little. El Presidente and the built-in presets give the same numbers as before.</b></p>
+<ul>
+<li><b>The catalyst brick wall now reaches its warmed-up temperature inside each solve.</b> Before, a result was read while the wall was still warming. Results on layouts with a cat move by up to about 0.5 dB in pressure and a few percent in scavenging.</li>
+<li><b>Experimental catalyst channel heat exchange</b> (off unless you turn it on) no longer leaks heat through the brick wall model. It stays off by default.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.39/Exhaustism-0.4.39.zip" length="9336837" type="application/octet-stream" sparkle:edSignature="+1519sMvzsZVKrLM/7bnb1qK8qV9hFIh31dRwsQI9btNjPoaVk36FGGfnlaeqUBypFOx89PzK7Jl3vqBw2jUBw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.38</title>
         <pubDate>Thu, 08 Oct 2026 22:02:35 -0700</pubDate>
         <sparkle:version>53</sparkle:version>
