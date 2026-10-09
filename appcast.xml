@@ -17,6 +17,20 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.38</title>
+        <pubDate>Thu, 08 Oct 2026 22:02:35 -0700</pubDate>
+        <sparkle:version>53</sparkle:version>
+        <sparkle:shortVersionString>0.4.38</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: nothing changes in your results. Every preset gives exactly the same numbers as 0.4.37.</b></p>
+<ul>
+<li><b>The old hand-wired solver is gone.</b> Every layout you can draw now solves on one shared solver path, built from the same parts. About 5,700 lines of special-case code were removed after a digit-by-digit check.</li>
+<li><b>The Exhaust pane and the Simulate check read one prepared layout per document,</b> so they always agree.</li>
+<li><b>A 6&rarr;2 plan with a Post-Cat Merge whose bank split does not have two banks</b> is now named, with the field to change, instead of running through a single collector you did not build.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.38/Exhaustism-0.4.38.zip" length="9330336" type="application/octet-stream" sparkle:edSignature="kmlZZzn99PqvekLk0/UZH8IfBdQpEJiEOx8LsBe2+l7TB1J/gVrmMndml/ywQVyoU8mVmnpu5uJ3JTf044tAAg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.37</title>
         <pubDate>Thu, 08 Oct 2026 19:08:48 -0700</pubDate>
         <sparkle:version>52</sparkle:version>
