@@ -17,6 +17,22 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.37</title>
+        <pubDate>Thu, 08 Oct 2026 19:08:48 -0700</pubDate>
+        <sparkle:version>52</sparkle:version>
+        <sparkle:shortVersionString>0.4.37</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: inputs that were silently ignored are now read. El Presidente and the built-in presets give the same numbers as before.</b></p>
+<ul>
+<li><b>The sound at the pipe mouth uses the real mouth size</b> &mdash; the merged pipe, tip or taper outlet you entered, not the tail pipe. On a 76 mm merged pipe this lowers the level above about 1 kHz by up to about 0.8 dB.</li>
+<li><b>Each Post-Cat Merge pipe uses its own size for wall heat and damping.</b> Before, they borrowed the tail pipe&rsquo;s bore and length.</li>
+<li><b>A short tail pipe is damped at the length it is laid at.</b></li>
+<li><b>A stepped tail pipe beside a Post-Cat Merge is simulated with its step,</b> and the result says so. Before, the step was dropped without a word.</li>
+<li><b>A bank split that leaves a cylinder out is named,</b> with where to assign it, instead of running a different layout.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.37/Exhaustism-0.4.37.zip" length="9547304" type="application/octet-stream" sparkle:edSignature="qJ9XocYz4EFdx/TEDe3ZGelv2tyZjceFoR+dHwcmyBIRd6fsbnKEZwjPL3VWUxVdyNXDPPxergisF+4dy2W1Cg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.36</title>
         <pubDate>Thu, 08 Oct 2026 09:31:43 -0700</pubDate>
         <sparkle:version>51</sparkle:version>
