@@ -17,6 +17,21 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.42</title>
+        <pubDate>Sat, 10 Oct 2026 04:59:35 -0700</pubDate>
+        <sparkle:version>56</sparkle:version>
+        <sparkle:shortVersionString>0.4.42</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: losses now come from the shape you draw. Results move on layouts with a merge, a resonator, a cat or a muffler.</b></p>
+<ul>
+<li><b>Merges no longer count their loss twice.</b> Each merge has a Merge angle field, and the loss comes from the angle and pipe sizes.</li>
+<li><b>Resonator, cat and muffler joints</b> are worked out from the neck, pipe, cone, brick and core sizes. Before, flow out of a resonator can or a cat gained pressure it could not have.</li>
+<li><b>Every joint is named in About this result</b> with its computed loss, by bank where there are two banks. The loss fields are gone.</li>
+<li><b>El Presidente moves:</b> scavenging +5 % at 2200&ndash;2400 rpm and +4 % at 3200 rpm. The drone is 0.4 dB louder at 3200 rpm and 1.9 dB louder at 4000 rpm. Drone frequencies do not change.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.42/Exhaustism-0.4.42.zip" length="9399807" type="application/octet-stream" sparkle:edSignature="youYxhn0qJwhe6adxA5IORgob4jaxbHBhq8xtRwH8rDuadgSlt96Nw1hYeK/p+aX0fL+oaA0ipGq7cbKfivMCw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.41</title>
         <pubDate>Fri, 09 Oct 2026 16:36:30 -0700</pubDate>
         <sparkle:version>55</sparkle:version>
