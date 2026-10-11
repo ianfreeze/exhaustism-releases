@@ -17,6 +17,20 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.43</title>
+        <pubDate>Sat, 10 Oct 2026 17:10:58 -0700</pubDate>
+        <sparkle:version>57</sparkle:version>
+        <sparkle:shortVersionString>0.4.43</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: gas is no longer lost or created during an engine cycle, so most results move a little.</b></p>
+<ul>
+<li><b>Mass conservation.</b> Intake and exhaust flow now match to within 0.01 % on El Presidente. Before, they differed by up to 4.5 %. The pressure trace on the published SAE 2002 engine test moved closer to the measurement.</li>
+<li><b>El Presidente moves:</b> scavenging +1.7 % at 2200 rpm, +2.9 % at 2400 rpm and &minus;6.4 % at 3200 rpm. Drone level moves by up to 1 dB. Drone frequencies do not change.</li>
+<li><b>A cat with no cone angle entered uses a typical 60&deg; cone,</b> not a sudden step. Enter your own angle or choose a flat step.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.43/Exhaustism-0.4.43.zip" length="9468519" type="application/octet-stream" sparkle:edSignature="ZXV/yhmBTJmuJl1BcVQQp9NORD7Sk4KuDFC1GDBzFvSF5WHV1zbyjEjSnV5ahMTSYy36dWNuvZddv2hdHz6yDQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.42</title>
         <pubDate>Sat, 10 Oct 2026 04:59:35 -0700</pubDate>
         <sparkle:version>56</sparkle:version>
