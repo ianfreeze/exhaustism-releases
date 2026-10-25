@@ -17,6 +17,25 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.44</title>
+        <pubDate>Sun, 25 Oct 2026 12:59:35 -0700</pubDate>
+        <sparkle:version>58</sparkle:version>
+        <sparkle:shortVersionString>0.4.44</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: results move on every layout. The engine model now computes more of what it used to assume, and it was checked against measured engine data from four published laboratories.</b></p>
+<ul>
+<li><b>Closer to the dyno.</b> SAE 2004 brake torque against the measured curve: 0.4.43 read 34 % / 23 % / 18 % high at 2000 / 4500 / 7000 rpm. 0.4.44 reads 8 % high / 2 % low / 6 % low.</li>
+<li><b>Exhaust-valve-open temperature is computed</b> from the burn, not typed. Heat loss uses Annand&rsquo;s law. Burned gas properties follow temperature and mixture. Default fuel is 91-octane California pump gas.</li>
+<li><b>Valve lift follows the cam.</b> Factory cams are in the library for El Presidente, the LS3, the RB26 and others. Schrick 284/280 is its own El Presidente preset. A yellow triangle marks placeholder values. Your own entry always wins.</li>
+<li><b>Every engine states its exhaust valve count.</b> A 4-valve head flows through both exhaust valves. The M30 exhaust valve is 38 mm (Bentley 116-17).</li>
+<li><b>One displacement everywhere:</b> bore &times; stroke &times; cylinders. The Inspector shows it read-only.</li>
+<li><b>Pie-cut bends on the cut list</b> with cut angles, an expansion chamber muffler, and taper losses from cited tables.</li>
+<li><b>Fixed:</b> valve flow below choke was up to 8 % too high. Intake air now uses air properties. Old files no longer fill missing values from El Presidente. Pressure and temperature fields no longer rewrite your value.</li>
+<li><b>Known open:</b> TCC-III port temperature at 1300 rpm reads 7.3 K hot. The SAE 2004 pulse peak reads about 15&deg; early. YZ400 and YZ426 read high at mid rpm.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.44/Exhaustism-0.4.44.zip" length="10333295" type="application/octet-stream" sparkle:edSignature="XsNiMGn7cpgQvzOMrxX67vCMfI5Z7QlN5KA1+WWQEqSqCEyhpd6CfVbi1tKEtFoIXkv0bk80/knp0gSGDeI1DA=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.43</title>
         <pubDate>Sat, 10 Oct 2026 17:10:58 -0700</pubDate>
         <sparkle:version>57</sparkle:version>
