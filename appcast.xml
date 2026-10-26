@@ -17,6 +17,22 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.45</title>
+        <pubDate>Mon, 26 Oct 2026 12:19:18 -0700</pubDate>
+        <sparkle:version>59</sparkle:version>
+        <sparkle:shortVersionString>0.4.45</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: engines that run the intake model breathe less than before, because a real intake-side solver bug is fixed. Three fabrication readouts are corrected.</b></p>
+<ul>
+<li><b>Fixed: intake air no longer comes in colder than the air you feed it.</b> The intake valve booked the inducted air's energy with the burned gas's heat capacity, so every stroke cooled the runner and the engine over-filled. On the two measured Yamaha race engines the power against the dyno went from 11&ndash;39 % high to about 5 % on average.</li>
+<li><b>SAE 2004 test engine:</b> the exhaust valve now opens the way the paper measured it. The exhaust pulse peak moved from 15&deg; early to 1&deg; early (2000 rpm) and 5&deg; early (5000 rpm).</li>
+<li><b>Bell's primary-diameter rule</b> has its square root back: El Presidente at 5500 rpm reads 41.5 mm, not 32.3 mm.</li>
+<li><b>Cut list:</b> a pie-cut bend is no longer counted twice, and a single-miter bend lists its two cut legs.</li>
+<li><b>Known open:</b> TCC-III 1300 rpm port temperature does not settle with mesh size. YZ exhaust blowdown reads weak. Ishihama pulse amplitude reads 2&ndash;3&times; measured. Calibrator sigma depends on its step size. SAE 2004 torque/IMEP fit slightly worse (0.060&rarr;0.061, 0.050&rarr;0.055).</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.45/Exhaustism-0.4.45.zip" length="10338804" type="application/octet-stream" sparkle:edSignature="NMGH6ZEuUKqh6T8tNnkIUJUdKNy5W2bBQuUlKnZCFeS7l54gLts3mNvrKE1RAY8IBj9KJCbfVSheu8rXNPIBDg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.44</title>
         <pubDate>Sun, 25 Oct 2026 12:59:35 -0700</pubDate>
         <sparkle:version>58</sparkle:version>
