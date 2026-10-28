@@ -17,6 +17,24 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.46</title>
+        <pubDate>Wed, 28 Oct 2026 04:28:57 -0700</pubDate>
+        <sparkle:version>60</sparkle:version>
+        <sparkle:shortVersionString>0.4.46</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will see: results move a little on most engines, because the solver now has one way of doing each thing, the one backed by a measurement, and the exhaust valve and the pipe are solved together.</b></p>
+<ul>
+<li><b>Fixed: the exhaust valve and the pipe agree on the gas at the valve</b> in the same time step (they could oscillate before).</li>
+<li><b>Friction from the flow</b> in every pipe, <b>a measured open-end reflection</b> (Silva 2009, Rienstra/Tiikoja), <b>one junction rule</b>, and branch flow shares used at their true value. El Presidente's tailpipe quarter-wave reads about 209.5 Hz (was 206.0).</li>
+<li><b>Aged exhaust steel</b> is the default pipe surface (emissivity 0.86); the About pane says so.</li>
+<li><b>Muffler packing:</b> enter the packing and its sound absorption is computed from it; no switch. "About this result" says which model ran.</li>
+<li><b>Removed:</b> the old MacCormack scheme, the hidden test switches, and the "Wall heat" / "Catalyst brick wall" toggles (they are the method now).</li>
+<li><b>Measured:</b> YZ400 brake power error 0.046 &rarr; 0.037; exhaust crests closer to the measured traces at 14 of 16 points; Drobot port gas 26&ndash;110 K closer; TCC-III fired-minus-motored now inside 2 sd.</li>
+<li><b>Known open:</b> SAE 2004 pulse at 5000 rpm wider and later than measured; YZ426 brake mep 8 % high; TCC-III absolute port temperature +30 K; Ishihama pulse amplitude 1.5&ndash;4.5&times; measured.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.46/Exhaustism-0.4.46.zip" length="10166587" type="application/octet-stream" sparkle:edSignature="O7I/6N2DZKopeVLMFWYTVnesSRwiHoe5WaphfNzlSVRsZjkjdd2RS3kW1CViyjVgqD6+2wEh1WVcyReJIKO6Dg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.45</title>
         <pubDate>Mon, 26 Oct 2026 12:19:18 -0700</pubDate>
         <sparkle:version>59</sparkle:version>
