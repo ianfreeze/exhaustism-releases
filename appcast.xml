@@ -17,6 +17,23 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.47</title>
+        <pubDate>Wed, 28 Oct 2026 21:23:56 -0700</pubDate>
+        <sparkle:version>61</sparkle:version>
+        <sparkle:shortVersionString>0.4.47</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What you will hear: Live Rev and Export to WAV now play exactly the same sound, at one fixed level set from the sweep's own loudest point.</b></p>
+<ul>
+<li><b>One sound path:</b> the export no longer uses a second synthesiser or adds a room echo. Nothing turns the level up or down while you rev.</li>
+<li><b>Safety limiter</b> at -1 dBTP that only catches true overs; on every library preset it changed 0 samples.</li>
+<li><b>Listening mode</b> (new, off by default): a gentle compressor for small speakers. Exports made with it say so in the file name.</li>
+<li><b>Cleanup:</b> every hidden switch and old name is gone; older files still open and save unchanged.</li>
+<li><b>Cycle-extend rule on:</b> a point that has not settled runs more cycles. El Presidente does not move; YZ400 crests move both ways (6000 rpm closer, diffuser 7000/8000 rpm further).</li>
+<li><b>Known open:</b> SAE 2004 pulse at 5000 rpm wider and later than measured; YZ426 brake mep 8 % high; TCC-III absolute port temperature +30 K; Ishihama pulse amplitude 1.5&ndash;4.4&times; measured.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.47/Exhaustism-0.4.47.zip" length="10120149" type="application/octet-stream" sparkle:edSignature="xyetzX/EuuWxKqkaxagsr0HCEkfao+9C6NtTqRMFymoref44dDiymlb+4+kdAGimfFbVy0/fRjh+wtnNN6ChBQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.46</title>
         <pubDate>Wed, 28 Oct 2026 04:28:57 -0700</pubDate>
         <sparkle:version>60</sparkle:version>
