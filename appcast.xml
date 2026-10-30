@@ -17,6 +17,22 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.49</title>
+        <pubDate>Fri, 30 Oct 2026 03:54:17 -0700</pubDate>
+        <sparkle:version>63</sparkle:version>
+        <sparkle:shortVersionString>0.4.49</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What changes for you: the rushing-air noise at the tail pipe now gets its loudness from NASA's measured jet-noise data instead of two numbers we picked. The solver did not change.</b></p>
+<ul>
+<li><b>Airflow noise level:</b> it now follows NASA's measured hot-jet law (Khavaran &amp; Bridges, NASA/TM-2009-215608). Faster and hotter tail pipe gas is louder, using the gas temperature from each solve. The old picked constants and the extra half-speed hiss band are gone.</li>
+<li><b>Noise generator fix:</b> the hiss came out 3 dB quieter than asked (its random source had a spread of 0.5, not 1). It is now exactly 1.</li>
+<li><b>What you will hear:</b> on the M30B35 and Coyote presets the rushing air is 10&ndash;16 dB louder next to the pulses, because their tail pipe gas runs hot. The whole sound on those two plays about 5.5 dB quieter, since the fixed level now counts the louder hiss. El Presidente moves by 1&ndash;3 dB in the hiss and 0.4 dB overall.</li>
+<li><b>New measured-data test:</b> a cold 47 mm pipe jet (Hillenbrand 2022). The app reads 7.5&ndash;9 dB quieter than the measurement; the test pins it.</li>
+<li><b>Known open:</b> road-car tail pipe speeds are below NASA's data (Mach 0.39 and up). The hot presets run past NASA's hottest test. Still 7.5&ndash;9 dB under the measured pipe jet. The shape of the hiss is not sourced. Airflow noise inside the pipes is not modelled.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.49/Exhaustism-0.4.49.zip" length="10126978" type="application/octet-stream" sparkle:edSignature="wG8nirCrRx35IE31/qQbu9pYgLC4TgXa8UQkoMsDRJCsPc6dwQhF0KryuMbZ6AAX3CR2UTenP8mnZ5B6zoyQCg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.48</title>
         <pubDate>Thu, 29 Oct 2026 19:07:03 -0700</pubDate>
         <sparkle:version>62</sparkle:version>
