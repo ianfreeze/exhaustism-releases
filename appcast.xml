@@ -17,6 +17,24 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.48</title>
+        <pubDate>Thu, 29 Oct 2026 19:07:03 -0700</pubDate>
+        <sparkle:version>62</sparkle:version>
+        <sparkle:shortVersionString>0.4.48</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What changes for you: the Target Sound half-order badge now knows about runner bore. Everything else is new tests against measured data. The solver did not change.</b></p>
+<ul>
+<li><b>Half-order badge:</b> it now says half orders are reachable when one runner is at least 20 % smaller in area than the biggest. Honda measured this on the 2018 Gold Wing, and our solver does the same. No library preset changes its badge.</li>
+<li><b>Nissan 1996 pipe heat test:</b> the pipe heat law matches the measurement near the port at high flow. It reads low near the port at low flow and high further down. The law did not change.</li>
+<li><b>Honda shock-tube test:</b> the solver's shock jump lands inside the measured band.</li>
+<li><b>Ishihama scored at the measured tap</b> with the printed &phi;60 pipe. The mean error at that tap drops from about +11 to about +9.5 dB. The static-pressure curves we used before turned out to be a textbook car, so we stopped using them.</li>
+<li><b>14 papers filed in KnoRep</b>, each marked measured or calculated by figure.</li>
+<li><b>Not put in:</b> flow-noise formulas whose constants were fitted to one maker's tests, the textbook back-pressure curves, rigs whose papers leave out the inputs, and new presets with missing data. We do not guess inputs or tune to a target.</li>
+<li><b>Known open:</b> Ishihama still reads 5&ndash;7.5&times; the measured pulse at 4000&ndash;4500 rpm. Exhaust jet noise level is still a placeholder. SAE 2004 pulse at 5000 rpm wider and later than measured. YZ426 brake mep 8 % high. TCC-III port temperature +30 K.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.48/Exhaustism-0.4.48.zip" length="10121266" type="application/octet-stream" sparkle:edSignature="1uC4xxgEvi/yw1XGedKF7tH1Mb4+zpNu6Tx9vOPhJoCBb7QEem2neSC0VG6HpzC0oGUjsItW4paWy7Rzrk6cCg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.47</title>
         <pubDate>Wed, 28 Oct 2026 21:23:56 -0700</pubDate>
         <sparkle:version>61</sparkle:version>
