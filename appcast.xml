@@ -17,6 +17,21 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.51</title>
+        <pubDate>Sat, 31 Oct 2026 06:09:13 -0700</pubDate>
+        <sparkle:version>65</sparkle:version>
+        <sparkle:shortVersionString>0.4.51</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What changes for you: mufflers with extended pipes sound closer to measured ones, low-rpm exhaust rush is anchored to a measured pipe jet, and tapered pipes meet the next part at the right size.</b></p>
+<ul>
+<li><b>Extended-pipe mufflers:</b> an extended inlet or outlet pipe now also shortens the open chamber between the pipe ends (Selamet &amp; Ji 1999, Selamet 2003). Against 508 measured points the miss falls from 6.3 dB to 3.7 dB.</li>
+<li><b>Low-speed jet noise:</b> below NASA's lowest measured speed, the airflow-noise loudness follows Hillenbrand 2022's measured pipe jet. Audible mainly at low rpm.</li>
+<li><b>Fixed: tapered pipes</b> (megaphones, reducers, cones) used their inlet size at both ends. They now meet the next joint at their outlet size. No shipped preset changes; your own documents with a tapered piece before a joint will.</li>
+<li><b>Also in this update (from 0.4.50):</b> the tone colour of the tail-pipe rush comes from measured jet spectra (Tam et al. 1996, Ahuja 1973).</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.51/Exhaustism-0.4.51.zip" length="10150171" type="application/octet-stream" sparkle:edSignature="Mp26dP3bPdd0MRa05SQW5m5/xF7hJAUO6pvBXcBc/7DYgK3jSDWK2aWjR4oGOBRRCR+9AVQqSTnRm38NkxgiCQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.49</title>
         <pubDate>Fri, 30 Oct 2026 03:54:17 -0700</pubDate>
         <sparkle:version>63</sparkle:version>
