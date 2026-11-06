@@ -17,6 +17,19 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.52</title>
+        <pubDate>Fri, 06 Nov 2026 00:20:14 -0800</pubDate>
+        <sparkle:version>66</sparkle:version>
+        <sparkle:shortVersionString>0.4.52</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What changes for you: tapered pipes now have the right shape, so every preset moves a little.</b></p>
+<ul>
+<li><b>Fixed: tapered pipes</b> (reducers, cones, megaphones) were laid one cell too far downstream, so their last part ran past the outlet size. Every shipped preset has one, the reducer into the mid pipe. El Presidente: scavenging +0.07 / +0.05 / −1.77 / +0.30 % at 2200 / 2400 / 3200 / 4000 rpm, sound level under +0.1 dB, pitch unchanged.</li>
+<li><b>Fixed:</b> a tank followed by outlet pipes is no longer refused.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.52/Exhaustism-0.4.52.zip" length="10223799" type="application/octet-stream" sparkle:edSignature="1Qc8eZpZ0QXMr9cxRDz8iQXNvdltvk+2cFJI9zpNJie/cqFKkrqEatzKKspB2fVRmkRQ1dgr/dro2l5qJ0x9BQ=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.51</title>
         <pubDate>Sat, 31 Oct 2026 06:09:13 -0700</pubDate>
         <sparkle:version>65</sparkle:version>
