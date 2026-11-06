@@ -17,6 +17,19 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.53</title>
+        <pubDate>Fri, 06 Nov 2026 14:23:36 -0800</pubDate>
+        <sparkle:version>67</sparkle:version>
+        <sparkle:shortVersionString>0.4.53</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What changes for you: a pipe that changes size inside an outlet chain now loses flow at that joint, like a header joint.</b></p>
+<ul>
+<li><b>Fixed:</b> a size change between two plain pipes inside a chain of parts (or in the merged section after the cats) used to be lossless. It now gets the same sudden-enlargement or contraction loss, or reducer cone, as the same joint in the header.</li>
+<li>The shipped presets do not have this layout and do not change. Your own documents with a size change inside an outlet chain will.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.53/Exhaustism-0.4.53.zip" length="10236012" type="application/octet-stream" sparkle:edSignature="efNt7YstpvX5K9KeKLzLv+6wJuLxXKPGZEkDag7C0f9YwDhPHfkrJuYsH7oOB4hBZhxJFm3HzlPAYNbb3/liAg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.52</title>
         <pubDate>Fri, 06 Nov 2026 00:20:14 -0800</pubDate>
         <sparkle:version>66</sparkle:version>
