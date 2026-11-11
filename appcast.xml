@@ -17,6 +17,23 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.54</title>
+        <pubDate>Wed, 11 Nov 2026 03:09:51 -0800</pubDate>
+        <sparkle:version>68</sparkle:version>
+        <sparkle:shortVersionString>0.4.54</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What changes for you: a heat-loss field you can see and set, a "too close to call" warning on comparisons, and a cleaner low band on the M30.</b></p>
+<ul>
+<li><b>New:</b> Engine &gt; Intake &amp; Combustion &gt; Cylinder shows "Heat-loss a (Annand)" with a yellow triangle: the published default 0.35, your own value if you type one, the published range and how a shop calibrates it.</li>
+<li><b>New:</b> while that field is at its default, every A/B in Compare also runs at a = 0.25 and 0.45. If the winner changes, the app says "Too close to call: depends on heat loss."</li>
+<li><b>New:</b> when the tailpipe flow swings more than half its mean or flows back in, the sound level there is marked as an upper bound.</li>
+<li><b>Fixed:</b> on the M30 above about 4000 rpm the 10-200 Hz band no longer shows solver noise. Lines too far under the drone line to resolve are left out, and the panel says so.</li>
+<li><b>Changed:</b> cat channels use the laminar heat-transfer law. Documents with a cat move slightly.</li>
+<li><b>Intake documents</b> (your own; no shipped preset has an intake): the plenum mouth, the exhaust valve back-flow and the cylinder gas mix are now modelled. Expect their results to move.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.54/Exhaustism-0.4.54.zip" length="10470457" type="application/octet-stream" sparkle:edSignature="vk/HK9gkBZF41B8cnsuPzLbiSHJESfd9AkFyEV1ozP0QsXNV86Ew5jG5WaFpRTaL5SZ6raRWazsYI1y/bKCyCw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.53</title>
         <pubDate>Fri, 06 Nov 2026 14:23:36 -0800</pubDate>
         <sparkle:version>67</sparkle:version>
