@@ -17,6 +17,24 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.55</title>
+        <pubDate>Fri, 13 Nov 2026 21:09:41 -0800</pubDate>
+        <sparkle:version>69</sparkle:version>
+        <sparkle:shortVersionString>0.4.55</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>What changes for you: every pipe now carries sound at the correct speed, so tuned lengths and tuned rpm move up about 1.4-2.2 %, and drone level moves on some designs.</b></p>
+<ul>
+<li><b>Changed:</b> the gas in every pipe follows the real heat curve of hot exhaust gas, and every wave reader uses the true heat ratio. Sound runs a little faster in a hot pipe. On El Presidente the drone at 3200 rpm reads about 2 dB lower and scavenging rises at all four check speeds (2200, 2400, 3200 and 4000 rpm).</li>
+<li><b>Fixed:</b> Blair friction. The Blair 1986 lab rig uses the thesis friction.</li>
+<li><b>Fixed:</b> the catalyst friction placeholder is 0.08 (used only with the friction correlation off).</li>
+<li><b>Fixed:</b> a resonator neck or volume at a pipe joint now balances energy. Two resonator designs that blew up now solve.</li>
+<li><b>Fixed:</b> a false pressure step in the readouts at the muffler-to-tailpipe joint is gone.</li>
+<li><b>Fixed:</b> thin, fast pipes. When gas runs faster than sound through a joint between two same-size pipes, the joint acts as one pipe.</li>
+<li><b>Fixed:</b> on intake documents the two-way exhaust valve note now says the valve passes flow both ways.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.55/Exhaustism-0.4.55.zip" length="10596121" type="application/octet-stream" sparkle:edSignature="GlaCYiaOypa6ZTHBMfzmYASepQL8PKsJ5KUavdPlnze0KOppoMp3es5vDG2PpE8KD9/R5BlDntgACLZ2JD4ZBg=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.54</title>
         <pubDate>Wed, 11 Nov 2026 03:09:51 -0800</pubDate>
         <sparkle:version>68</sparkle:version>
