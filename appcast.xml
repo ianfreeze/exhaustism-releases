@@ -17,6 +17,23 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.56</title>
+        <pubDate>Sat, 14 Nov 2026 15:55:01 -0800</pubDate>
+        <sparkle:version>70</sparkle:version>
+        <sparkle:shortVersionString>0.4.56</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>New: Pipe cooling. Choose how the outside of the pipes is cooled - still air (default, the hottest case), a dyno fan, on the road at a speed you type, or a pipe temperature you measured. Comparisons now tell you when the winner depends on pipe cooling.</b></p>
+<ul>
+<li><b>Where:</b> Engine &gt; Gas Properties, under Ambient Temp. Your saved designs open as still air and run exactly as they did in 0.4.55.</li>
+<li><b>Dyno fan:</b> 7 m/s of air across the pipes, one measured dyno fan (Westin 2005).</li>
+<li><b>On the road:</b> the app blows the full car speed across the pipes. How much road air reaches a real pipe is not published, so this is the coolest case for that speed.</li>
+<li><b>Measured:</b> the app holds every exhaust pipe wall at the temperature you type.</li>
+<li><b>What moves:</b> cooler pipes move tunes to a lower rpm and move the drone. On El Presidente at 70 mph the drone at 2750 rpm reads about 1 dB lower.</li>
+<li><b>Comparisons:</b> while Pipe cooling is at its default, every Compare also runs on the road at 70 mph. If the winner changes, the app says "Too close to call: depends on pipe cooling."</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.56/Exhaustism-0.4.56.zip" length="10713820" type="application/octet-stream" sparkle:edSignature="bkT9eYyk3k7bD+I4JClpe4kSXlzZVU0f+Yye7NdlS/l3V2wdKqru0n/NzUbDa7XWQbkk4CxK0PHtGdMzkowYDA=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.55</title>
         <pubDate>Fri, 13 Nov 2026 21:09:41 -0800</pubDate>
         <sparkle:version>69</sparkle:version>
