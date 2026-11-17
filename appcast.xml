@@ -17,6 +17,21 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.57</title>
+        <pubDate>Mon, 16 Nov 2026 23:48:42 -0800</pubDate>
+        <sparkle:version>71</sparkle:version>
+        <sparkle:shortVersionString>0.4.57</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>Fixed: a number you type is never changed behind your back. A value outside a field's range is refused with a red sentence; before, it was cut to the limit with no message.</b></p>
+<ul>
+<li><b>Burn timing:</b> Intake &amp; Combustion &gt; Burn timing, MBT (default) or Typed values. With MBT the spark, burn length and shape fields are greyed and say why. Before, they looked editable and did nothing.</li>
+<li><b>Yellow triangles</b> on numbers with no source: charge temperature, volumetric efficiency (no intake attached), pipe roughness, merge angle, and the valve flow curve.</li>
+<li><b>Muffler gas temp</b> is typed in your temperature unit.</li>
+<li><b>Labels and help</b> are clearer. No simulated number changes.</li>
+</ul>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.57/Exhaustism-0.4.57.zip" length="10778229" type="application/octet-stream" sparkle:edSignature="9/xd2cV3fniq1H0CCI3c7li5gx+ENmleseJBf0VRI0Vn+wjb5FzNMZFw3Rfm7w4ktl766HPjW6xiCPLZp2eRDA=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.56</title>
         <pubDate>Sat, 14 Nov 2026 15:55:01 -0800</pubDate>
         <sparkle:version>70</sparkle:version>
