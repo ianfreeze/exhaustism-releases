@@ -17,6 +17,22 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.59</title>
+        <pubDate>Thu, 19 Nov 2026 03:32:52 -0800</pubDate>
+        <sparkle:version>73</sparkle:version>
+        <sparkle:shortVersionString>0.4.59</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>New: a Compare tab, a fab drawing PDF, and the first notarized build.</b></p>
+<ul>
+<li><b>Compare tab:</b> power and torque on one chart with two y-axes. Sound A/B with a quick swap (A, B or Space) and the level difference in dB. Build difference: tube length, bends, pie-cut pieces and welds. Run B on A's rpm points. Listening tests (match loudness, blind X test) are off by default.</li>
+<li><b>Fab drawing PDF:</b> Export PDF on the Build Sheet. Cut list with part balloons, plan view to scale, 1:1 pie-cut wrap templates with check bars, collector and flange sheets. Missing numbers are blanks with a triangle, never a guess.</li>
+<li><b>Fixed:</b> the Exhaust Designer tab now opens when clicked, and the underbody view stays inside its window when you zoom.</li>
+<li><b>Notarized by Apple:</b> no "unidentified developer" warning on a fresh download.</li>
+</ul>
+<p>No simulated number changes: every design runs bit for bit as in 0.4.58.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.59/Exhaustism-0.4.59.zip" length="12419646" type="application/octet-stream" sparkle:edSignature="h55UzH1tm2gV6i+XAis58LLUQna66zfNY+FltGqs+a8bY7x962ppkgKtJmtk9AuEF2bUUYSUNXSOeQTiZM+EAw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.58</title>
         <pubDate>Wed, 18 Nov 2026 20:42:28 -0800</pubDate>
         <sparkle:version>72</sparkle:version>
