@@ -17,6 +17,23 @@
       leave it as the baseline (a build-1 app will read it as "you are up to date").
     -->
     <item>
+        <title>Exhaustism 0.4.58</title>
+        <pubDate>Wed, 18 Nov 2026 20:42:28 -0800</pubDate>
+        <sparkle:version>72</sparkle:version>
+        <sparkle:shortVersionString>0.4.58</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[<p><b>New: header wrap and outside coating on every primary pipe, a Swirl ratio field, flow-bench sheet import, and an x-t wave diagram that explains itself.</b></p>
+<ul>
+<li><b>Header wrap / Outside coating:</b> pickers in the Inspector for every primary. The app solves the wall through the layers and warns when the wall under a wrap runs hotter than the wrap's rating. Both start at Off.</li>
+<li><b>Swirl ratio:</b> feeds Woschni's heat loss while the valves are open. Empty or 0 means no swirl. Help text gives only sourced ranges, with pages.</li>
+<li><b>Run uses the number you are still typing.</b> If the design did not take it, the run is refused and the field is named.</li>
+<li><b>Errors are shown:</b> failed file saves, bad VANOS or gear entries, an unusable rod length or compression ratio, all refused or reported by name.</li>
+<li><b>Yellow triangles and sources:</b> Vehicle pane defaults, throttle bore, and the cat brick sourced as a 400/6.5 monolith.</li>
+</ul>
+<p>With every new choice at its default, the gate's reference designs run bit for bit as before.</p>]]></description>
+        <enclosure url="https://github.com/ianfreeze/exhaustism-releases/releases/download/v0.4.58/Exhaustism-0.4.58.zip" length="11243239" type="application/octet-stream" sparkle:edSignature="4JmPDDesBUhhNWvKxY/E0t20ukYBXFN0CA/f0JcFhhrCBFKIYlbOwbO8skV7wC0MOIO2aTQduuZMUlccvO1nDw=="/>
+    </item>
+    <item>
         <title>Exhaustism 0.4.57</title>
         <pubDate>Mon, 16 Nov 2026 23:48:42 -0800</pubDate>
         <sparkle:version>71</sparkle:version>
